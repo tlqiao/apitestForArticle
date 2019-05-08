@@ -1,4 +1,4 @@
-package tl86
+package tl86.secondCourse
 
 import spock.lang.Specification
 

@@ -1,0 +1,13 @@
+active: dev
+dev:
+  db:
+    url: jdbc:mysql://127.0.0.1:3306/springbootdb
+    user: root
+    password: root
+stable:
+  db:
+    url: jdbc:mysql://127.0.0.1:3306/springbootdb
+    user: root
+    passowrd: root
+
+

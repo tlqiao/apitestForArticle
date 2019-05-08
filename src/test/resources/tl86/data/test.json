@@ -1,0 +1,25 @@
+{"pipelineName": "myPipelineName",
+  "env": "dev",
+  "branch": "master",
+  "stages": [
+    {
+      "id": "15000000000000",
+      "name": "stage1",
+      "status": "success",
+      "duration": 66408
+    },
+    {
+      "id": "15000000000001",
+      "name": "stage2",
+      "status": "success",
+      "duration": 81462
+    }
+  ],
+  "sonar": {
+    "sqaleDebtRatio": 5.7,
+    "sqaleRating": "B",
+    "coverage": 16.7,
+    "testNumber": 1.0,
+    "link": "http://xxx.yyyy"
+  }
+}

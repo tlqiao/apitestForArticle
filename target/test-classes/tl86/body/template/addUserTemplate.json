@@ -1,0 +1,32 @@
+{
+  "name": "TOM",
+  "age": 10,
+  "contacts": [
+    #if ($addUserBody.ifAddMainContact)
+    {
+      "city": $addUserBody.mainContact.city,
+      "street": $addUserBody.mainContact.street,
+      "phone": $addUserBody.mainContact.phone
+    }
+   #end
+   #if($addUserBody.ifAddBackupContact)
+  ,
+    {
+    "city": $addUserBody.backupContact.city,
+    "street": $addUserBody.backupContact.street,
+    "phone": $addUserBody.backupContact.phone
+    }
+  #end
+  ]
+  #if ($addUserBody.ifAddBackGround)
+  "background": {
+    "degree": $addUserBody.backGround.degree,
+    "educate school": $addUserBody.backGround.school,
+    "graduate Date": $addUserBody.backGround.date
+  }
+  #end
+  #if ($addUserBody.ifAddOtherInfo)
+  ,
+  "others description": "any comment"
+  #end
+}

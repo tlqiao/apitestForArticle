@@ -1,0 +1,22 @@
+{
+  "name": "TOM",
+  "age": 10,
+  "contacts": [
+    {
+      "city": "chengdu",
+      "street": "huaxi-Street",
+      "phone": "11122222222"
+    },
+    {
+      "city": "meijing",
+      "street": "qinghua-street",
+      "phone": "33333444"
+    }
+  ],
+  "background": {
+    "degree": "doctor",
+    "educate school": "Beijing univercity",
+    "graduate Date": "2019-7"
+  },
+  "otherDescription": "any comment"
+}

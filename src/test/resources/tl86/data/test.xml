@@ -1,0 +1,11 @@
+<?xml version='1.0' ?>
+<doc>
+    <person>
+        <name>TOM</name>
+        <age>21</age>
+    </person>
+    <person>
+        <name>DAVE</name>
+        <age>18</age>
+    </person>
+</doc>
