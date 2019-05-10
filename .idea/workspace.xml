@@ -2,38 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75656b56-0b4c-41d0-9d6c-2bbb6c6cef08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/AddUserBody.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/Case.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/TemplateService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/UserClient.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/db/Case.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/db/ConstantSql.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/db/DataRepository.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/db/DataSource.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/FileService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeService.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/Case.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/ClosureStudy.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/CollectionStudy.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/GroovyBasicStudy.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/body/addUser.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/body/template/addUserTemplate.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/config/config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/data/test.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/data/test.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/data/test.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/tl86/FirstDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/tl86/SecondDemo.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/groovy/tl86/FirstDemo.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/secondCourse/FirstDemo.groovy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/groovy/tl86/SecondDemo.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/secondCourse/SecondDemo.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlClient.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlDataService.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_2_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/Case.class" afterPath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/Case.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeClient.class" afterPath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeService.class" afterPath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api_test.iml" afterPath="$PROJECT_DIR$/api_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" afterPath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/spock-reports/index.html" afterPath="$PROJECT_DIR$/build/spock-reports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/spock-reports/tl86.fourCourse.file.Case.html" afterPath="$PROJECT_DIR$/build/spock-reports/tl86.fourCourse.file.Case.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/spock-reports/tl86.sixCourse.Case.html" afterPath="$PROJECT_DIR$/build/spock-reports/tl86.sixCourse.Case.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeService.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeService.groovy" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,32 +53,94 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="ResumeClient.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="120">
+              <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="13" selection-end-column="11" />
+              <folding>
+                <element signature="e#24#70#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XmlClient.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlClient.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Case.groovy" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy">
+      <file leaf-file-name="XmlDataService.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlDataService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            <state relative-caret-position="370">
+              <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionStudy.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/CollectionStudy.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClosureStudy.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/ClosureStudy.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroovyBasicStudy.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/GroovyBasicStudy.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="36" column="9" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileService.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/FileService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Case.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/Case.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+            <state relative-caret-position="1200">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/data/test.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -99,18 +149,8 @@
       <file leaf-file-name="ResumeService.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserClient.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/UserClient.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="680">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -121,7 +161,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>csv</find>
+      <find>&quot;</find>
     </findStrings>
+    <replaceStrings>
+      <replace>\&quot;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,7 +199,6 @@
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/DataRepository.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/DataSource.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/ConstantSql.groovy" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/tl86/data/test.txt" />
         <option value="$PROJECT_DIR$/src/test/resources/tl86/test.yml" />
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/testIT.groovy" />
@@ -175,9 +218,16 @@
         <option value="$PROJECT_DIR$/src/test/resources/tl86/body/addUser.json" />
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/Case.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/TemplateService.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/resources/schema.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/tl86/test.txt" />
+        <option value="$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema1.json" />
         <option value="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlDataService.groovy" />
       </list>
     </option>
   </component>
@@ -196,13 +246,19 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="api_test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="y" value="23" />
+    <option name="width" value="1393" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -269,7 +325,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -310,7 +365,26 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="tl86" type="462c0819:PsiDirectoryNode" />
-              <item name="fiveCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="fourCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="tl86" type="462c0819:PsiDirectoryNode" />
+              <item name="fourCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="tl86" type="462c0819:PsiDirectoryNode" />
+              <item name="sevenCourse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
@@ -326,6 +400,15 @@
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="tl86" type="462c0819:PsiDirectoryNode" />
+              <item name="thirdCourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -336,17 +419,27 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="tl86" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tl86" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -359,7 +452,11 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/tl86/schema" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/tl86/schema" />
       <recent name="$PROJECT_DIR$/src/test/groovy/tl86/secondCourse" />
       <recent name="$PROJECT_DIR$/screenshotForArticle" />
     </key>
@@ -376,8 +473,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Case.get person from different country">
-    <configuration name="Case.get contact from resume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.XmlDataService.getMapView">
+    <configuration name="Case.debug" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tl86.sixCourse.*" />
@@ -389,7 +486,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tl86.sixCourse" />
       <option name="MAIN_CLASS_NAME" value="tl86.sixCourse.Case" />
-      <option name="METHOD_NAME" value="get contact from resume" />
+      <option name="METHOD_NAME" value="debug" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -402,19 +499,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Case.get person from different country" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Case.should read xml file successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tl86.sixCourse.*" />
+          <option name="PATTERN" value="tl86.fourCourse.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="api_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tl86.sixCourse" />
-      <option name="MAIN_CLASS_NAME" value="tl86.sixCourse.Case" />
-      <option name="METHOD_NAME" value="get person from different country" />
+      <option name="PACKAGE_NAME" value="tl86.fourCourse.file" />
+      <option name="MAIN_CLASS_NAME" value="tl86.fourCourse.file.Case" />
+      <option name="METHOD_NAME" value="should read xml file successfully" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -427,19 +524,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Case.should add user with inputting contacts and background successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XmlDataService.getAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tl86.fiveCourse.*" />
+          <option name="PATTERN" value="tl86.sevenCourse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="api_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tl86.fiveCourse" />
-      <option name="MAIN_CLASS_NAME" value="tl86.fiveCourse.Case" />
-      <option name="METHOD_NAME" value="should add user with inputting contacts and background successfully" />
+      <option name="PACKAGE_NAME" value="tl86.sevenCourse" />
+      <option name="MAIN_CLASS_NAME" value="tl86.sevenCourse.XmlDataService" />
+      <option name="METHOD_NAME" value="getAddress" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -452,19 +549,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Case.should add user with inputting main and backup contact successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XmlDataService.getMapView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tl86.fiveCourse.*" />
+          <option name="PATTERN" value="tl86.sevenCourse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="api_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tl86.fiveCourse" />
-      <option name="MAIN_CLASS_NAME" value="tl86.fiveCourse.Case" />
-      <option name="METHOD_NAME" value="should add user with inputting main and backup contact successfully" />
+      <option name="PACKAGE_NAME" value="tl86.sevenCourse" />
+      <option name="MAIN_CLASS_NAME" value="tl86.sevenCourse.XmlDataService" />
+      <option name="METHOD_NAME" value="getMapView" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -477,19 +574,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Case.should add user with only inputting main contact successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="XmlDataService.getMatchLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="tl86.fiveCourse.*" />
+          <option name="PATTERN" value="tl86.sevenCourse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="api_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tl86.fiveCourse" />
-      <option name="MAIN_CLASS_NAME" value="tl86.fiveCourse.Case" />
-      <option name="METHOD_NAME" value="should add user with only inputting main contact successfully" />
+      <option name="PACKAGE_NAME" value="tl86.sevenCourse" />
+      <option name="MAIN_CLASS_NAME" value="tl86.sevenCourse.XmlDataService" />
+      <option name="METHOD_NAME" value="getMatchLevel" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -583,19 +680,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Case.should add user with only inputting main contact successfully" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Case.should add user with inputting main and backup contact successfully" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Case.should add user with inputting contacts and background successfully" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Case.get person from different country" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Case.get contact from resume" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.Case.debug" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.XmlDataService.getMatchLevel" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Case.should read xml file successfully" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.XmlDataService.getMapView" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.XmlDataService.getAddress" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Case.get person from different country" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Case.get contact from resume" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Case.should add user with inputting contacts and background successfully" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Case.should add user with inputting main and backup contact successfully" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Case.should add user with only inputting main contact successfully" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.XmlDataService.getMapView" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.XmlDataService.getAddress" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.XmlDataService.getMatchLevel" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Case.should read xml file successfully" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.Case.debug" />
       </list>
     </recent_temporary>
   </component>
@@ -631,44 +728,45 @@
       <workItem from="1556418471106" duration="136000" />
       <workItem from="1556586637754" duration="202000" />
       <workItem from="1556973980909" duration="16000" />
-      <workItem from="1557297112404" duration="3076000" />
+      <workItem from="1557297112404" duration="15907000" />
+      <workItem from="1557454784035" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Case_get_contact_from_resume - 2019.05.08 at 15h 30m 14s.xml">
-      <configuration name="Case.get contact from resume" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getAddress - 2019.05.09 at 19h 55m 51s.xml">
+      <configuration name="XmlDataService.getAddress" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_get_contact_from_resume - 2019.05.08 at 15h 30m 40s.xml">
-      <configuration name="Case.get contact from resume" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getAddress - 2019.05.09 at 19h 56m 41s.xml">
+      <configuration name="XmlDataService.getAddress" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_get_contact_from_resume - 2019.05.08 at 15h 32m 58s.xml">
-      <configuration name="Case.get contact from resume" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getAddress - 2019.05.09 at 19h 59m 00s.xml">
+      <configuration name="XmlDataService.getAddress" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_get_contact_from_resume - 2019.05.08 at 15h 52m 39s.xml">
-      <configuration name="Case.get contact from resume" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getAddress - 2019.05.09 at 20h 05m 23s.xml">
+      <configuration name="XmlDataService.getAddress" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_get_person_from_different_country - 2019.05.08 at 15h 26m 52s.xml">
-      <configuration name="Case.get person from different country" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getAddress - 2019.05.09 at 20h 06m 29s.xml">
+      <configuration name="XmlDataService.getAddress" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_get_person_from_different_country - 2019.05.08 at 15h 28m 21s.xml">
-      <configuration name="Case.get person from different country" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getAddress - 2019.05.09 at 20h 07m 07s.xml">
+      <configuration name="XmlDataService.getAddress" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_get_person_from_different_country - 2019.05.08 at 15h 28m 49s.xml">
-      <configuration name="Case.get person from different country" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getAddress - 2019.05.09 at 20h 07m 17s.xml">
+      <configuration name="XmlDataService.getAddress" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_get_person_from_different_country - 2019.05.08 at 15h 57m 36s.xml">
-      <configuration name="Case.get person from different country" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getMapView - 2019.05.09 at 20h 12m 52s.xml">
+      <configuration name="XmlDataService.getMapView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_should_add_user_with_only_inputting_main_contact_successfully - 2019.04.23 at 20h 23m 55s.xml">
-      <configuration name="Case.should add user with only inputting main contact successfully" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getMapView - 2019.05.09 at 20h 13m 29s.xml">
+      <configuration name="XmlDataService.getMapView" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Case_should_add_user_with_only_inputting_main_contact_successfully - 2019.04.23 at 20h 24m 41s.xml">
-      <configuration name="Case.should add user with only inputting main contact successfully" configurationId="JUnit" />
+    <history-entry file="XmlDataService_getMapView - 2019.05.09 at 20h 13m 50s.xml">
+      <configuration name="XmlDataService.getMapView" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54265000" />
+    <option name="totallyTimeSpent" value="67440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -676,30 +774,30 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34153616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3410072" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29246488" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.348659" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23381294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446043" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2057554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822478" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35632184" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33077905" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -717,27 +815,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy</url>
-          <line>30</line>
+          <url>file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy</url>
+          <line>58</line>
           <properties />
-          <option name="timeStamp" value="11" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/testedProject1.jpg" />
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/InitPorjectStructure.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/FirstDemo.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/addProductWithJunit.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/FirstDemo.groovy" />
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/initProjectStructure.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshotForArticle/properties.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -776,20 +876,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/SecondDemo.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/GroovyBasicStudy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="36" column="9" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/CollectionStudy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse.groovy" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/57065df2-0603-4dc0-9a1b-f2a67605ff71/console.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -853,20 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/data/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/FileService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/db/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
@@ -878,13 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -909,13 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/ClosureStudy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/Case.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
@@ -930,14 +988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="47" column="13" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/body/template/addUserTemplate.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -949,9 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#25#67#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,15 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/Case.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,30 +1013,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="12" column="11" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshotForArticle/courseSix.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="34" column="49" lean-forward="true" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="77" column="22" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/test.txt" />
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="8" column="2" lean-forward="false" selection-start-line="8" selection-start-column="2" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#24#70#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="680">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/CollectionStudy.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        <state relative-caret-position="580">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/ClosureStudy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/thirdCourse/GroovyBasicStudy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/FileService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/data/test.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sevenCourse/XmlDataService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="22" column="74" lean-forward="false" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
           <folding />
         </state>
       </provider>

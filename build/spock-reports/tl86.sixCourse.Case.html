@@ -251,7 +251,7 @@ div.footer {
 </div>
 <div class='summary-report'>
 <h3>Summary:</h3>
-<div class='date-test-ran'>Created on Wed May 08 15:57:35 CST 2019 by tlqiao</div>
+<div class='date-test-ran'>Created on Thu May 09 17:27:23 CST 2019 by tlqiao</div>
 <table class='summary-table'>
 <thead>
 <th>Executed features</th>
@@ -268,7 +268,7 @@ div.footer {
 <td>0</td>
 <td>0</td>
 <td>100.0%</td>
-<td>1.202 seconds</td>
+<td>1.754 seconds</td>
 </tr>
 </tbody>
 </table>
@@ -282,15 +282,27 @@ div.footer {
 <tbody>
 <ul id='toc'>
 <li>
-<a href='#2013537690' class='feature-toc-pass'>get person from different country</a>
+<a href='#2013537690' class='feature-toc-ignored'>get person from different country</a>
 </li>
 <li>
 <a href='#-1385367143' class='feature-toc-ignored'>get contact from resume</a>
 </li>
+<li>
+<a href='#1049163426' class='feature-toc-ignored'>get all working experience</a>
+</li>
+<li>
+<a href='#-1554916713' class='feature-toc-ignored'>println language skill if person with it</a>
+</li>
+<li>
+<a href='#-1413153239' class='feature-toc-ignored'>call the api</a>
+</li>
+<li>
+<a href='#95458899' class='feature-toc-pass'>debug</a>
+</li>
 </ul>
 <tr>
 <td colspan='10'>
-<div class='feature-description' id='2013537690'>
+<div class='feature-description ignored' id='2013537690'>
 <span>get person from different country</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -331,36 +343,6 @@ div.footer {
 </td>
 </tr>
 <tr>
-<td>
-<div class='block-kind'>Examples:</div>
-</td>
-<td>
-<div class='spec-examples'>
-<table class='ex-table'>
-<thead>
-<th class='ex-header'>country</th>
-<th class='ex-header'>placeHolder</th>
-</thead>
-<tbody>
-<tr class='ex-pass'>
-<td class='ex-value'>China</td>
-<td class='ex-value'></td>
-<td class='ex-result'>OK</td>
-</tr>
-<tr class='ex-pass'>
-<td class='ex-value'>USA</td>
-<td class='ex-value'></td>
-<td class='ex-result'>OK</td>
-</tr>
-</tbody>
-</table>
-</div>
-</td>
-<td>
-<div class='spec-status'>2/2 passed</div>
-</td>
-</tr>
-<tr>
 <td colspan='10'>
 <div class='feature-description ignored' id='-1385367143'>
 <span>get contact from resume</span>
@@ -391,7 +373,192 @@ div.footer {
 <div class='block-kind'>Then:</div>
 </td>
 <td>
-<div class='block-text'>println  out the resume from different country</div>
+<div class='block-text'>println out contacts info</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='1049163426'>
+<span>get all working experience</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>no given</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>call the get resume api</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>println out contacts info</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='-1554916713'>
+<span>println language skill if person with it</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>no given</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>call the get resume api</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>println out contacts info</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description ignored' id='-1413153239'>
+<span>call the api</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>no given</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>call the get resume api</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>no then</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='95458899'>
+<span>debug</span>
+<span style='float: right; font-size: 60%;'>
+<a href='#toc'>Return</a>
+</span>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Given:</div>
+</td>
+<td>
+<div class='block-text'>no given</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>When:</div>
+</td>
+<td>
+<div class='block-text'>call the get resume api</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Then:</div>
+</td>
+<td>
+<div class='block-text'>check the schema</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Where:</div>
+</td>
+<td>
+<div class='block-text'>----</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>filePath</th>
+<th class='ex-header'>placeHolder</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>tl86/schema/getResumeSchema1.json</td>
+<td class='ex-value'></td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div class='spec-status'>1/1 passed</div>
 </td>
 </tr>
 </tbody>

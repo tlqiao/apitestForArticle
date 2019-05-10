@@ -28,8 +28,8 @@ class ResumeService {
 
     void printIfPersonWithSpecialSkill(String res, language) {
         def resumeDetails = jsonSlurper.parseText(res)
-        if (resumeDetails.skill.tech.size() > 0) {
-            def programmingSkill = resumeDetails.skill.tech.find { it -> it.language == language }
+        if (resumeDetails.skills.tech.size() > 0) {
+            def programmingSkill = resumeDetails.skills.tech.find { it -> it.language == language }
             println programmingSkill.language + programmingSkill.level
         }
     }
