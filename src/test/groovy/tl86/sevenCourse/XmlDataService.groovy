@@ -20,7 +20,7 @@ class XmlDataService {
     @Test()
     void getMapView() {
         def result = xmlSlurper.parseText(xmlClient.getXmlData())
-        println result.View.Result.Location.MapView.TopLeft.each { it -> it }
+         result.View.Result.Location.MapView.TopLeft.each { it -> println it }
         println result.View.Result.Location.MapView.TopLeft.find { it -> it.Latitude == 41.88 }.Longitude
 
     }
