@@ -23,7 +23,7 @@ class FileService {
         new Yaml().load(text)
     }
 
-    // 获取csv文件内容
+    // 获取yml文件内容
     def getConfigs(String ymlFilePath) {
         def configs = yml(createFile(ymlFilePath).text)
         configs
