@@ -251,7 +251,7 @@ div.footer {
 </div>
 <div class='summary-report'>
 <h3>Summary:</h3>
-<div class='date-test-ran'>Created on Tue Apr 23 21:07:13 CST 2019 by tlqiao</div>
+<div class='date-test-ran'>Created on Wed Jun 05 10:25:31 CST 2019 by tlqiao</div>
 <table class='summary-table'>
 <thead>
 <th>Executed features</th>
@@ -263,12 +263,12 @@ div.footer {
 </thead>
 <tbody>
 <tr>
-<td>1</td>
+<td>4</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100.0%</td>
-<td>1.575 seconds</td>
+<td>0.156 seconds</td>
 </tr>
 </tbody>
 </table>
@@ -282,13 +282,13 @@ div.footer {
 <tbody>
 <ul id='toc'>
 <li>
-<a href='#-650238096' class='feature-toc-ignored'>should add user successfully</a>
+<a href='#-650238096' class='feature-toc-pass'>should add user successfully</a>
 </li>
 <li>
-<a href='#1820385347' class='feature-toc-ignored'>should add user with only inputting main contact successfully</a>
+<a href='#1820385347' class='feature-toc-pass'>should add user with only inputting main contact successfully</a>
 </li>
 <li>
-<a href='#951703086' class='feature-toc-ignored'>should add user with inputting main and backup contact successfully</a>
+<a href='#951703086' class='feature-toc-pass'>should add user with inputting main and backup contact successfully</a>
 </li>
 <li>
 <a href='#-1003144228' class='feature-toc-pass'>should add user with inputting contacts and background successfully</a>
@@ -296,7 +296,7 @@ div.footer {
 </ul>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-650238096'>
+<div class='feature-description' id='-650238096'>
 <span>should add user successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -330,7 +330,7 @@ div.footer {
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='1820385347'>
+<div class='feature-description' id='1820385347'>
 <span>should add user with only inputting main contact successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -371,8 +371,35 @@ div.footer {
 </td>
 </tr>
 <tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>city</th>
+<th class='ex-header'>street</th>
+<th class='ex-header'>phone</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>chengdu</td>
+<td class='ex-value'>qingyi-street</td>
+<td class='ex-value'>11223344556</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div class='spec-status'>1/1 passed</div>
+</td>
+</tr>
+<tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='951703086'>
+<div class='feature-description' id='951703086'>
 <span>should add user with inputting main and backup contact successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -410,6 +437,39 @@ div.footer {
 </td>
 <td>
 <div class='block-text'>----</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>mainCity</th>
+<th class='ex-header'>mainStreet</th>
+<th class='ex-header'>mainPhone</th>
+<th class='ex-header'>backupCity</th>
+<th class='ex-header'>backupStreet</th>
+<th class='ex-header'>backupPhone</th>
+</thead>
+<tbody>
+<tr class='ex-pass'>
+<td class='ex-value'>chengdu</td>
+<td class='ex-value'>one-street</td>
+<td class='ex-value'>11223344556</td>
+<td class='ex-value'>beijing</td>
+<td class='ex-value'>two-street</td>
+<td class='ex-value'>19478309</td>
+<td class='ex-result'>OK</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div class='spec-status'>1/1 passed</div>
 </td>
 </tr>
 <tr>

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: tl86.fourCourse.file.Case
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.415 s <<< FAILURE! - in tl86.fourCourse.file.Case
+should read csv file successfully(tl86.fourCourse.file.Case)  Time elapsed: 0.105 s  <<< FAILURE!
+org.spockframework.runtime.ConditionNotSatisfiedError: 
+Condition not satisfied:
+
+csvContent.each{ it -> println it.name + ":" + it.age + ":" + it.address }
+|          |
+|          com.xlson.groovycsv.CsvIterator@6d167f58
+com.xlson.groovycsv.CsvIterator@6d167f58
+
+	at tl86.fourCourse.file.Case.should read csv file successfully(Case.groovy:41)
+

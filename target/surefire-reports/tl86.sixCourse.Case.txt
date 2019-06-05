@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: tl86.sixCourse.Case
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 6, Errors: 1, Skipped: 0, Time elapsed: 0.405 s <<< FAILURE! - in tl86.sixCourse.Case
+get person from different country(tl86.sixCourse.Case)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sixCourse.Case.get person from different country(Case.groovy:18)
+
+get person from different country(tl86.sixCourse.Case)  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sixCourse.Case.get person from different country(Case.groovy:18)
+
+get contact from resume(tl86.sixCourse.Case)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sixCourse.Case.get contact from resume(Case.groovy:30)
+
+get all working experience(tl86.sixCourse.Case)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sixCourse.Case.get all working experience(Case.groovy:38)
+
+println language skill if person with it(tl86.sixCourse.Case)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sixCourse.Case.println language skill if person with it(Case.groovy:46)
+
+call the api(tl86.sixCourse.Case)  Time elapsed: 0.286 s  <<< ERROR!
+io.restassured.module.jsv.JsonSchemaValidationException: 
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@2b329bbd; line: 1, column: 2]
+	at tl86.sixCourse.Case.call the api(Case.groovy:57)
+Caused by: com.fasterxml.jackson.core.JsonParseException: 
+Unexpected character ('<' (code 60)): expected a valid value (number, String, array, object, 'true', 'false' or 'null')
+ at [Source: java.io.StringReader@2b329bbd; line: 1, column: 2]
+	at tl86.sixCourse.Case.call the api(Case.groovy:57)
+
+validate schema of getResume2 api(tl86.sixCourse.Case)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sixCourse.Case.validate schema of getResume2 api(Case.groovy:67)
+

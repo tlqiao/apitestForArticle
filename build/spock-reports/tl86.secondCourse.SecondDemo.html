@@ -244,14 +244,14 @@ div.footer {
 </style>
 </head>
 <body>
-<h2>Report for tl86.thirdCourse.Case</h2>
+<h2>Report for tl86.secondCourse.SecondDemo</h2>
 <hr></hr>
 <div class='back-link'>
 <a href='index.html'>&lt;&lt; Back</a>
 </div>
 <div class='summary-report'>
 <h3>Summary:</h3>
-<div class='date-test-ran'>Created on Wed Jun 05 10:25:31 CST 2019 by tlqiao</div>
+<div class='date-test-ran'>Created on Wed Jun 05 10:25:30 CST 2019 by tlqiao</div>
 <table class='summary-table'>
 <thead>
 <th>Executed features</th>
@@ -264,11 +264,11 @@ div.footer {
 <tbody>
 <tr>
 <td>1</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100.0%</td>
-<td>0.023 seconds</td>
+<td>0.0%</td>
+<td>0.142 seconds</td>
 </tr>
 </tbody>
 </table>
@@ -282,13 +282,13 @@ div.footer {
 <tbody>
 <ul id='toc'>
 <li>
-<a href='#804444629' class='feature-toc-pass'>should book's price correct</a>
+<a href='#-1521533164' class='feature-toc-failure'>should get user details by user name successfully</a>
 </li>
 </ul>
 <tr>
 <td colspan='10'>
-<div class='feature-description' id='804444629'>
-<span>should book's price correct</span>
+<div class='feature-description failure' id='-1521533164'>
+<span>should get user details by user name successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
 </span>
@@ -300,7 +300,7 @@ div.footer {
 <div class='block-kind'>Given:</div>
 </td>
 <td>
-<div class='block-text'>----</div>
+<div class='block-text'>no given</div>
 </td>
 </tr>
 <tr>
@@ -308,7 +308,7 @@ div.footer {
 <div class='block-kind'>When:</div>
 </td>
 <td>
-<div class='block-text'>get books response</div>
+<div class='block-text'>call get user by name api</div>
 </td>
 </tr>
 <tr>
@@ -316,7 +316,7 @@ div.footer {
 <div class='block-kind'>Then:</div>
 </td>
 <td>
-<div class='block-text'>book's price is correct</div>
+<div class='block-text'>no then</div>
 </td>
 </tr>
 <tr>
@@ -335,21 +335,40 @@ div.footer {
 <div class='spec-examples'>
 <table class='ex-table'>
 <thead>
-<th class='ex-header'>bookName</th>
-<th class='ex-header'>price</th>
+<th class='ex-header'>userName</th>
+<th class='ex-header'>placeHolder</th>
 </thead>
 <tbody>
-<tr class='ex-pass'>
-<td class='ex-value'>????</td>
-<td class='ex-value'>20</td>
-<td class='ex-result'>OK</td>
+<tr class='ex-fail'>
+<td class='ex-value'>TOM</td>
+<td class='ex-value'>Dave</td>
+<td class='ex-result'>FAIL</td>
 </tr>
 </tbody>
 </table>
 </div>
 </td>
 <td>
-<div class='spec-status'>1/1 passed</div>
+<div class='spec-status'>0/1 passed</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<div>[TOM, Dave]</div>
+<ul>
+<li>
+<pre>java.lang.AssertionError: 1 expectation failed.<br/>Expected status code &lt;200&gt; but was &lt;404&gt;.<br/></pre>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 </td>
 </tr>
 </tbody>

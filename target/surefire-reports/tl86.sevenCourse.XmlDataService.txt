@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: tl86.sevenCourse.XmlDataService
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.146 s <<< FAILURE! - in tl86.sevenCourse.XmlDataService
+getAddress(tl86.sevenCourse.XmlDataService)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sevenCourse.XmlDataService.getAddress(XmlDataService.groovy:30)
+
+getMatchLevel(tl86.sevenCourse.XmlDataService)  Time elapsed: 0.014 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sevenCourse.XmlDataService.getMatchLevel(XmlDataService.groovy:16)
+
+getMapView(tl86.sevenCourse.XmlDataService)  Time elapsed: 0.121 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at tl86.sevenCourse.XmlDataService.getMapView(XmlDataService.groovy:22)
+

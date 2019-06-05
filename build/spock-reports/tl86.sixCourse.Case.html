@@ -251,7 +251,7 @@ div.footer {
 </div>
 <div class='summary-report'>
 <h3>Summary:</h3>
-<div class='date-test-ran'>Created on Thu May 09 17:27:23 CST 2019 by tlqiao</div>
+<div class='date-test-ran'>Created on Wed Jun 05 10:25:30 CST 2019 by tlqiao</div>
 <table class='summary-table'>
 <thead>
 <th>Executed features</th>
@@ -263,12 +263,12 @@ div.footer {
 </thead>
 <tbody>
 <tr>
+<td>6</td>
+<td>5</td>
 <td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100.0%</td>
-<td>1.754 seconds</td>
+<td>0.0%</td>
+<td>0.377 seconds</td>
 </tr>
 </tbody>
 </table>
@@ -282,27 +282,27 @@ div.footer {
 <tbody>
 <ul id='toc'>
 <li>
-<a href='#2013537690' class='feature-toc-ignored'>get person from different country</a>
+<a href='#2013537690' class='feature-toc-failure'>get person from different country</a>
 </li>
 <li>
-<a href='#-1385367143' class='feature-toc-ignored'>get contact from resume</a>
+<a href='#-1385367143' class='feature-toc-failure'>get contact from resume</a>
 </li>
 <li>
-<a href='#1049163426' class='feature-toc-ignored'>get all working experience</a>
+<a href='#1049163426' class='feature-toc-failure'>get all working experience</a>
 </li>
 <li>
-<a href='#-1554916713' class='feature-toc-ignored'>println language skill if person with it</a>
+<a href='#-1554916713' class='feature-toc-failure'>println language skill if person with it</a>
 </li>
 <li>
-<a href='#-1413153239' class='feature-toc-ignored'>call the api</a>
+<a href='#-1413153239' class='feature-toc-error'>call the api</a>
 </li>
 <li>
-<a href='#95458899' class='feature-toc-pass'>debug</a>
+<a href='#-593452963' class='feature-toc-failure'>validate schema of getResume2 api</a>
 </li>
 </ul>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='2013537690'>
+<div class='feature-description failure' id='2013537690'>
 <span>get person from different country</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -343,8 +343,67 @@ div.footer {
 </td>
 </tr>
 <tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>country</th>
+<th class='ex-header'>placeHolder</th>
+</thead>
+<tbody>
+<tr class='ex-fail'>
+<td class='ex-value'>China</td>
+<td class='ex-value'></td>
+<td class='ex-result'>FAIL</td>
+</tr>
+<tr class='ex-fail'>
+<td class='ex-value'>USA</td>
+<td class='ex-value'></td>
+<td class='ex-result'>FAIL</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div class='spec-status'>0/2 passed</div>
+</td>
+</tr>
+<tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-1385367143'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<div>[China, ]</div>
+<ul>
+<li>
+<pre>java.lang.AssertionError: 1 expectation failed.<br/>Expected status code &lt;200&gt; but was &lt;500&gt;.<br/></pre>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<div>[USA, ]</div>
+<ul>
+<li>
+<pre>java.lang.AssertionError: 1 expectation failed.<br/>Expected status code &lt;200&gt; but was &lt;500&gt;.<br/></pre>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description failure' id='-1385367143'>
 <span>get contact from resume</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -378,7 +437,21 @@ div.footer {
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='1049163426'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<pre>java.lang.AssertionError: 1 expectation failed.<br/>Expected status code &lt;200&gt; but was &lt;500&gt;.<br/></pre>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description failure' id='1049163426'>
 <span>get all working experience</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -412,7 +485,21 @@ div.footer {
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-1554916713'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<pre>java.lang.AssertionError: 1 expectation failed.<br/>Expected status code &lt;200&gt; but was &lt;500&gt;.<br/></pre>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description failure' id='-1554916713'>
 <span>println language skill if person with it</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -453,8 +540,52 @@ div.footer {
 </td>
 </tr>
 <tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>language</th>
+<th class='ex-header'>placeHolder</th>
+</thead>
+<tbody>
+<tr class='ex-fail'>
+<td class='ex-value'>Java</td>
+<td class='ex-value'></td>
+<td class='ex-result'>FAIL</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div class='spec-status'>0/1 passed</div>
+</td>
+</tr>
+<tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-1413153239'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<div>[Java, ]</div>
+<ul>
+<li>
+<pre>java.lang.AssertionError: 1 expectation failed.<br/>Expected status code &lt;200&gt; but was &lt;500&gt;.<br/></pre>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description error' id='-1413153239'>
 <span>call the api</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -495,9 +626,53 @@ div.footer {
 </td>
 </tr>
 <tr>
+<td>
+<div class='block-kind'>Examples:</div>
+</td>
+<td>
+<div class='spec-examples'>
+<table class='ex-table'>
+<thead>
+<th class='ex-header'>filePath</th>
+<th class='ex-header'>placeHolder</th>
+</thead>
+<tbody>
+<tr class='ex-fail'>
+<td class='ex-value'>tl86/schema/getResumeSchema1.json</td>
+<td class='ex-value'></td>
+<td class='ex-result'>FAIL</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td>
+<div class='spec-status'>0/1 passed</div>
+</td>
+</tr>
+<tr>
 <td colspan='10'>
-<div class='feature-description' id='95458899'>
-<span>debug</span>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<div>[tl86/schema/getResumeSchema1.json, ]</div>
+<ul>
+<li>
+<pre>io.restassured.module.jsv.JsonSchemaValidationException: com.fasterxml.jackson.core.JsonParseException: Unexpected character (&apos;&lt;&apos; (code 60)): expected a valid value (number, String, array, object, &apos;true&apos;, &apos;false&apos; or &apos;null&apos;)<br/> at [Source: java.io.StringReader@2b329bbd; line: 1, column: 2]</pre>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description failure' id='-593452963'>
+<span>validate schema of getResume2 api</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
 </span>
@@ -517,7 +692,7 @@ div.footer {
 <div class='block-kind'>When:</div>
 </td>
 <td>
-<div class='block-text'>call the get resume api</div>
+<div class='block-text'>call the get resume2 api</div>
 </td>
 </tr>
 <tr>
@@ -548,17 +723,36 @@ div.footer {
 <th class='ex-header'>placeHolder</th>
 </thead>
 <tbody>
-<tr class='ex-pass'>
+<tr class='ex-fail'>
 <td class='ex-value'>tl86/schema/getResumeSchema1.json</td>
 <td class='ex-value'></td>
-<td class='ex-result'>OK</td>
+<td class='ex-result'>FAIL</td>
 </tr>
 </tbody>
 </table>
 </div>
 </td>
 <td>
-<div class='spec-status'>1/1 passed</div>
+<div class='spec-status'>0/1 passed</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<div>[tl86/schema/getResumeSchema1.json, ]</div>
+<ul>
+<li>
+<pre>java.lang.AssertionError: 1 expectation failed.<br/>Expected status code &lt;200&gt; but was &lt;500&gt;.<br/></pre>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 </td>
 </tr>
 </tbody>

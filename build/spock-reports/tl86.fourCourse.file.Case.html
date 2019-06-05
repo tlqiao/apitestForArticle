@@ -251,7 +251,7 @@ div.footer {
 </div>
 <div class='summary-report'>
 <h3>Summary:</h3>
-<div class='date-test-ran'>Created on Thu May 09 19:47:50 CST 2019 by tlqiao</div>
+<div class='date-test-ran'>Created on Wed Jun 05 10:25:28 CST 2019 by tlqiao</div>
 <table class='summary-table'>
 <thead>
 <th>Executed features</th>
@@ -263,12 +263,12 @@ div.footer {
 </thead>
 <tbody>
 <tr>
+<td>5</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100.0%</td>
-<td>1 minutes, 11.656 seconds</td>
+<td>80.0%</td>
+<td>0.264 seconds</td>
 </tr>
 </tbody>
 </table>
@@ -282,16 +282,16 @@ div.footer {
 <tbody>
 <ul id='toc'>
 <li>
-<a href='#-120167439' class='feature-toc-ignored'>should create and read txt file successfully</a>
+<a href='#-120167439' class='feature-toc-pass'>should create and read txt file successfully</a>
 </li>
 <li>
-<a href='#1764340486' class='feature-toc-ignored'>should read yml file successfully</a>
+<a href='#1764340486' class='feature-toc-pass'>should read yml file successfully</a>
 </li>
 <li>
-<a href='#-898141772' class='feature-toc-ignored'>should read csv file successfully</a>
+<a href='#-898141772' class='feature-toc-failure'>should read csv file successfully</a>
 </li>
 <li>
-<a href='#-662138512' class='feature-toc-ignored'>should read json file successfully</a>
+<a href='#-662138512' class='feature-toc-pass'>should read json file successfully</a>
 </li>
 <li>
 <a href='#1552989573' class='feature-toc-pass'>should read xml file successfully</a>
@@ -299,7 +299,7 @@ div.footer {
 </ul>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-120167439'>
+<div class='feature-description' id='-120167439'>
 <span>should create and read txt file successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -341,7 +341,7 @@ div.footer {
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='1764340486'>
+<div class='feature-description' id='1764340486'>
 <span>should read yml file successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -375,7 +375,7 @@ div.footer {
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-898141772'>
+<div class='feature-description failure' id='-898141772'>
 <span>should read csv file successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
@@ -409,7 +409,21 @@ div.footer {
 </tr>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-662138512'>
+<div class='problem-description'>
+<div class='problem-header'>The following problems occurred:</div>
+<div class='problem-list'>
+<ul>
+<li>
+<pre>Condition not satisfied:<br/><br/>csvContent.each{ it -&gt; println it.name + &quot;:&quot; + it.age + &quot;:&quot; + it.address }<br/>|          |<br/>|          com.xlson.groovycsv.CsvIterator@6d167f58<br/>com.xlson.groovycsv.CsvIterator@6d167f58<br/></pre>
+</li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan='10'>
+<div class='feature-description' id='-662138512'>
 <span>should read json file successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
