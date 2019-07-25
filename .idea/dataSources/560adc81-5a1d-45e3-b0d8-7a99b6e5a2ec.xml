@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="dvwa@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+    <root id="1"/>
+    <schema id="2" parent="1" name="dvwa">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="crown1"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="jira"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="poppy"/>
+    <schema id="9" parent="1" name="sonar"/>
+    <schema id="10" parent="1" name="springbootdb"/>
+    <schema id="11" parent="1" name="sqlInjectDemo"/>
+    <schema id="12" parent="1" name="test"/>
+  </database-model>
+</dataSource>

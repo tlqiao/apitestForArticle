@@ -1,0 +1,12 @@
+{
+  #if($userInfo.isEditUser)
+  "id": $userInfo.id,
+  #else
+  "id": "",
+  #end
+  "loginName": "$userInfo.loginName",
+  "nickname": "$userInfo.nickName",
+  "phone": "$userInfo.phone",
+  "email": "$userInfo.email",
+  "roleIds": $roleIdList
+}

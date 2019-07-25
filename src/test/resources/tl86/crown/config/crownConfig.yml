@@ -1,0 +1,8 @@
+active: local
+decryptKey: "apiTestStudy"
+local:
+  db:
+    url: jdbc:mysql://127.0.0.1:3306/crown1
+    user: root
+    password: "[ENC]v/ugbsRD1jM="
+  baseUrl: http://127.0.0.1:8088
