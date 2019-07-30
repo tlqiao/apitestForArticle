@@ -1,33 +1,41 @@
 package tl86.crown.testdata.service
 
-import org.apache.commons.codec.digest.Md5Crypt
 import tl86.crown.scenario.userManage.repository.UserRepository
 import tl86.crown.scenario.userManage.service.UserService
-import tl86.crown.util.login.LoginService
+import tl86.crown.util.CrownFileService
 
-class InitGlobalUserService {
+class GlobalUserService {
     UserRepository userRepository
     UserService userService
-    LoginService globalService
+    CrownFileService crownFileService
 
-    InitGlobalUserService() {
+    GlobalUserService() {
         userRepository = new UserRepository()
         userService = new UserService()
-        globalService = new LoginService()
+        crownFileService = new CrownFileService()
+    }
+
+    private def getAllUserInfo() {
+        crownFileService.getCsvFileContent("src/test/resources/tl86/crown/data/user.csv", ",")
+    }
+
+    private def getAllRoleMenuInfo() {
+        crownFileService.getCsvFileContent("src/test/resources/tl86/crown/data/role.csv", ";")
+    }
+
+    def getUserInfoByRole(roleName) {
+        getAllUserInfo().find { it -> it.roleName == roleName }
     }
 
     private void addGlobalUsers() {
-        def allUserInfo = globalService.getAllUserInfo()
+        def allUserInfo = getAllUserInfo()
         allUserInfo.each {
-            if (!userService.ifUserExist(it.userName)) {
-                userRepository.insertSysUserTable(it.userName, it.userName, Md5Crypt.apr1Crypt(it.userName, it.userName), "test@163.com", "18181971234", 0)
-                userRepository.insertSysUserRoleTable(userRepository.getUserInfoByUserName(it.userName).uid,userRepository.getRoleInfoByRoleName(it.roleName).id)
-            }
+            userService.addUser(it.userName, it.password, it.roleName)
         }
     }
 
     private void initGlobalRole() {
-        def allRoleMenuInfo = globalService.getAllRoleMenuInfo()
+        def allRoleMenuInfo = getAllRoleMenuInfo()
         allRoleMenuInfo.each {
             if (!ifRoleExist(it.roleName)) {
                 userRepository.insertSysRoleTable(it.roleName)
@@ -40,11 +48,12 @@ class InitGlobalUserService {
     }
 
     private void initRoleMenuId() {
-        def allRoleMenuInfo = globalService.getAllRoleMenuInfo()
+        def allRoleMenuInfo = getAllRoleMenuInfo()
         def roleId
         allRoleMenuInfo.each {
             roleId = userRepository.getRoleInfoByRoleName(it.roleName).id
-            parseMenuIdList(it.menuIdList).each { menuId -> menuId
+            parseMenuIdList(it.menuIdList).each { menuId ->
+                menuId
                 if (!ifRoleIdMenuIdExist(roleId, menuId)) {
                     userRepository.insertSysRoleMenuTable(roleId, menuId)
                 }
@@ -53,7 +62,7 @@ class InitGlobalUserService {
     }
 
     private def parseMenuIdList(def menuIdListString) {
-       def parseString=menuIdListString.substring(1,menuIdListString.size()-1)
+        def parseString = menuIdListString.substring(1, menuIdListString.size() - 1)
         parseString.split(",")
     }
 

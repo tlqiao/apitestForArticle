@@ -8,7 +8,7 @@ class UserManageTemplate {
     VelocityContext velocityContext = new VelocityContext()
     StringWriter stringWriter = new StringWriter()
 
-    def getAddUserRequestBody(AddUserBody addUserBody) {
+    def getAddUserRequestBody(UserBody addUserBody) {
         velocityContext.put("userInfo",addUserBody.userInfo)
         velocityContext.put("roleIdList",addUserBody.roleIdList)
         velocityEngine.getTemplate("src/test/resources/tl86/crown/body/userManage/addUserBodyTemplate.json").merge(velocityContext,stringWriter)

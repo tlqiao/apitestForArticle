@@ -244,14 +244,14 @@ div.footer {
 </style>
 </head>
 <body>
-<h2>Report for tl86.crown.scenario.userManage.testCase.AddUserTest</h2>
+<h2>Report for tl86.crown.scenario.userManage.testCase.UpdateUserStatusTest</h2>
 <hr></hr>
 <div class='back-link'>
 <a href='index.html'>&lt;&lt; Back</a>
 </div>
 <div class='summary-report'>
 <h3>Summary:</h3>
-<div class='date-test-ran'>Created on Mon Jul 29 15:06:08 CST 2019 by tlqiao</div>
+<div class='date-test-ran'>Created on Tue Jul 30 14:43:41 CST 2019 by tlqiao</div>
 <table class='summary-table'>
 <thead>
 <th>Executed features</th>
@@ -268,7 +268,7 @@ div.footer {
 <td>0</td>
 <td>0</td>
 <td>100.0%</td>
-<td>2.218 seconds</td>
+<td>2.334 seconds</td>
 </tr>
 </tbody>
 </table>
@@ -282,22 +282,13 @@ div.footer {
 <tbody>
 <ul id='toc'>
 <li>
-<a href='#-1486224319' class='feature-toc-ignored'>should add user successfully when filling all required information</a>
-</li>
-<li>
-<a href='#1647275716' class='feature-toc-ignored'>should add user failed when not filling all required information</a>
-</li>
-<li>
-<a href='#-162637478' class='feature-toc-ignored'>should add user failed when not filling loginName</a>
-</li>
-<li>
-<a href='#-110390879' class='feature-toc-pass'>should add user failed with exist user account</a>
+<a href='#475301962' class='feature-toc-pass'>should update user status successfully</a>
 </li>
 </ul>
 <tr>
 <td colspan='10'>
-<div class='feature-description ignored' id='-1486224319'>
-<span>should add user successfully when filling all required information</span>
+<div class='feature-description' id='475301962'>
+<span>should update user status successfully</span>
 <span style='float: right; font-size: 60%;'>
 <a href='#toc'>Return</a>
 </span>
@@ -309,7 +300,7 @@ div.footer {
 <div class='block-kind'>Given:</div>
 </td>
 <td>
-<div class='block-text'>generate add user api request body</div>
+<div class='block-text'>add a test user</div>
 </td>
 </tr>
 <tr>
@@ -317,7 +308,7 @@ div.footer {
 <div class='block-kind'>When:</div>
 </td>
 <td>
-<div class='block-text'>call add user api interface</div>
+<div class='block-text'>update user status</div>
 </td>
 </tr>
 <tr>
@@ -325,133 +316,7 @@ div.footer {
 <div class='block-kind'>Then:</div>
 </td>
 <td>
-<div class='block-text'>should add user in db successfully</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Where:</div>
-</td>
-<td>
-<div class='block-text'>----</div>
-</td>
-</tr>
-<tr>
-<td colspan='10'>
-<div class='feature-description ignored' id='1647275716'>
-<span>should add user failed when not filling all required information</span>
-<span style='float: right; font-size: 60%;'>
-<a href='#toc'>Return</a>
-</span>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Given:</div>
-</td>
-<td>
-<div class='block-text'>generate add user api request body</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>When:</div>
-</td>
-<td>
-<div class='block-text'>call add user api interface</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Then:</div>
-</td>
-<td>
-<div class='block-text'>should add user in db successfully</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Where:</div>
-</td>
-<td>
-<div class='block-text'>----</div>
-</td>
-</tr>
-<tr>
-<td colspan='10'>
-<div class='feature-description ignored' id='-162637478'>
-<span>should add user failed when not filling loginName</span>
-<span style='float: right; font-size: 60%;'>
-<a href='#toc'>Return</a>
-</span>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Given:</div>
-</td>
-<td>
-<div class='block-text'>generate add user api request body</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>When:</div>
-</td>
-<td>
-<div class='block-text'>call add user api interface</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Then:</div>
-</td>
-<td>
-<div class='block-text'>should add user in db successfully</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Where:</div>
-</td>
-<td>
-<div class='block-text'>----</div>
-</td>
-</tr>
-<tr>
-<td colspan='10'>
-<div class='feature-description' id='-110390879'>
-<span>should add user failed with exist user account</span>
-<span style='float: right; font-size: 60%;'>
-<a href='#toc'>Return</a>
-</span>
-</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Given:</div>
-</td>
-<td>
-<div class='block-text'>generate add user api request body</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>When:</div>
-</td>
-<td>
-<div class='block-text'>call add user api interface</div>
-</td>
-</tr>
-<tr>
-<td>
-<div class='block-kind'>Then:</div>
-</td>
-<td>
-<div class='block-text'>no user added</div>
+<div class='block-text'>should update user status successfully</div>
 </td>
 </tr>
 <tr>
@@ -470,13 +335,13 @@ div.footer {
 <div class='spec-examples'>
 <table class='ex-table'>
 <thead>
-<th class='ex-header'>addUserRoleName</th>
-<th class='ex-header'>addedUserRoleName</th>
+<th class='ex-header'>updateStatusUserRoleName</th>
+<th class='ex-header'>placeHolder</th>
 </thead>
 <tbody>
 <tr class='ex-pass'>
 <td class='ex-value'>systemManager</td>
-<td class='ex-value'>systemManager</td>
+<td class='ex-value'></td>
 <td class='ex-result'>OK</td>
 </tr>
 </tbody>

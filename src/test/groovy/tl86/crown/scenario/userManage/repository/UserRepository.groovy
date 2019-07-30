@@ -19,11 +19,14 @@ class UserRepository extends CrownDataSource {
         crownDB.execute(insertRoleSql, [roleName])
     }
 
-    void deleteUserByUserName(userName){
-        def deleteSysUserRoleSql="delete from sys_user_role where uid in (select uid from sys_user where login_name=?)"
-        def deleteSysUserSql = "delete from sys_user where login_name=?"
-        crownDB.execute(deleteSysUserRoleSql,[userName])
-        crownDB.execute(deleteSysUserSql,[userName])
+    void deleteUserTableByUserName(userName) {
+        def deleteSysUserRoleSql = "delete from sys_user_role where uid in (select uid from sys_user where login_name=?)"
+        crownDB.execute(deleteSysUserRoleSql, [userName])
+    }
+
+    void deleteUserRoleTableByUserName(userName) {
+        def deleteSysUserRoleSql = "delete from sys_user_role where uid in (select uid from sys_user where login_name=?)"
+        crownDB.execute(deleteSysUserRoleSql, [userName])
     }
 
     def insertSysUserRoleTable(uid, roleId) {
@@ -46,5 +49,16 @@ class UserRepository extends CrownDataSource {
     def insertSysRoleMenuTable(roleId, menuId) {
         def insertRoleMenuSql = "insert sys_role_menu(role_id,menu_id) values (?,?)"
         crownDB.execute(insertRoleMenuSql, [roleId, menuId])
+    }
+
+    def searchUserCount(loginName, nickName, status) {
+        def searchUserSql = "select count(*) as numbers from sys_user where login_name like ? and nickname like ? and status like ?"
+        crownDB.firstRow(searchUserSql, [loginName, nickName, status]).numbers
+    }
+
+    def getUserRole(loginName) {
+        def getUserRoleSql="select * from sys_user_role where uid in (select uid from sys_user where login_name =?)"
+        crownDB.firstRow(getUserRoleSql,[loginName])
+
     }
 }

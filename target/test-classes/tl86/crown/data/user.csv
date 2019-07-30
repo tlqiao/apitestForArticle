@@ -1,4 +1,4 @@
-roleName,userName
-systemManager,sysManage
-userManager,userManage
-roleManager,roleManage
+roleName,userName,password
+systemManager,sysManage,abc123
+userManager,userManage,abc123
+roleManager,roleManage,abc123

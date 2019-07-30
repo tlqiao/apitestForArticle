@@ -1,10 +1,11 @@
 package tl86.crown.scenario.userManage.requestBody
 
-class AddUserBody {
+class UserBody {
     def userInfo=[:]
     def roleIdList=[]
     UserManageTemplate userManageTemplate
-    AddUserBody() {
+
+    UserBody() {
         userManageTemplate = new UserManageTemplate()
     }
     def setUserLoginName(loginName) {

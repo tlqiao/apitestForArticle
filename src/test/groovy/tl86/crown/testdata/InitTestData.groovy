@@ -1,13 +1,13 @@
 package tl86.crown.testdata
 
 import org.junit.Test
-import tl86.crown.testdata.service.InitGlobalUserService
+import tl86.crown.testdata.service.GlobalUserService
 
 class InitTestData {
-    InitGlobalUserService initGlobalUserService
+    GlobalUserService initGlobalUserService
 
     InitTestData() {
-        initGlobalUserService = new InitGlobalUserService()
+        initGlobalUserService = new GlobalUserService()
     }
 
     @Test()

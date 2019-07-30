@@ -4,9 +4,11 @@ import org.junit.Assert
 import spock.lang.Specification
 import tl86.crown.scenario.userManage.client.UserClient
 import tl86.crown.scenario.userManage.repository.UserRepository
-import tl86.crown.scenario.userManage.requestBody.AddUserBody
+import tl86.crown.scenario.userManage.requestBody.UserBody
 import tl86.crown.scenario.userManage.service.UserService
+import tl86.crown.testsuite.CrownTest
 
+@Category(CrownTest)
 class AddUserTest extends Specification {
     UserClient userClient
     UserService userService
@@ -20,13 +22,14 @@ class AddUserTest extends Specification {
     }
 
     def cleanup() {
-        userRepository.deleteUserByUserName(loginName)
+        userService.deleteUser(loginName)
     }
 
     def "should add user successfully when filling all required information"() {
+        def roleIdList = userService.generateUserRoleList(addedUserRoleName)
         given: "generate add user api request body"
         loginName = userService.generateUniqueLoginName()
-        def body = new AddUserBody()
+        def body = new UserBody()
                 .setUserLoginName(loginName)
                 .setUserNickName("abc123NickName")
                 .setUerPhone("18181971234")
@@ -34,21 +37,22 @@ class AddUserTest extends Specification {
                 .setRoleIdList(roleIdList)
                 .getAddUserBody()
         when: "call add user api interface"
-        userClient.addUserTwo(roleName, body)
+        userClient.addUser(addUserRoleName, body)
                 .statusCode(201)
         then: "should add user in db successfully"
         Assert.assertTrue(userService.ifUserExist(loginName))
         where:
-        roleName       | roleIdList
-        "systemManager"| ["8"]
-        "userManager"| ["8"]
-        "roleManager"| ["8"]
+        addUserRoleName | addedUserRoleName
+        "systemManager" | "roleManager"
+        "userManager"   | "roleManager"
+        "roleManager"   | "roleManager"
     }
 
     def "should add user failed when not filling all required information"() {
+        def roleIdList = userService.generateUserRoleList(addedUserRoleName)
         given: "generate add user api request body"
         loginName = userService.generateUniqueLoginName()
-        def body = new AddUserBody()
+        def body = new UserBody()
                 .setUserLoginName(loginName)
                 .setUserNickName(nickName)
                 .setUerPhone(phone)
@@ -56,21 +60,23 @@ class AddUserTest extends Specification {
                 .setRoleIdList(roleIdList)
                 .getAddUserBody()
         when: "call add user api interface"
-        userClient.addUserTwo(roleName, body)
+        userClient.addUser(addUserRoleName, body)
                 .statusCode(400)
         then: "should add user in db successfully"
         Assert.assertFalse(userService.ifUserExist(loginName))
         where:
-        nickName   | phone         | email          | roleIdList | roleName
-        ""         | "18181971234" | "test@163.com" | ["8"]      | "systemManager"
-        "nickName" | ""            | "test@163.com" | ["8"]      | "systemManager"
-        "nickName" | "18181971234" | ""             | ["8"]      | "systemManager"
+        nickName   | phone         | email          | addedUserRoleName | addUserRoleName
+        ""         | "18181971234" | "test@163.com" | "roleManager"  | "systemManager"
+        "nickName" | ""            | "test@163.com" | "roleManager"  | "systemManager"
+        "nickName" | "18181971234" | ""             | "roleManager"  | "systemManager"
         "nickName" | "18181971234" | "test@163.com" | ""         | "systemManager"
     }
+
     def "should add user failed when not filling loginName"() {
+        def roleIdList = userService.generateUserRoleList(addedUserRoleName)
         given: "generate add user api request body"
         loginName = ""
-        def body = new AddUserBody()
+        def body = new UserBody()
                 .setUserLoginName(loginName)
                 .setUserNickName("abc123NickName")
                 .setUerPhone("18181971234")
@@ -78,20 +84,21 @@ class AddUserTest extends Specification {
                 .setRoleIdList(roleIdList)
                 .getAddUserBody()
         when: "call add user api interface"
-        userClient.addUserTwo(roleName, body)
+        userClient.addUser(addUserRoleName, body)
                 .statusCode(400)
         then: "should add user in db successfully"
         Assert.assertFalse(userService.ifUserExist(loginName))
         where:
-        roleName|roleIdList
-        "systemManager"|["8"]
+        addUserRoleName | addedUserRoleName
+        "systemManager" | "roleManager"
     }
 
     def "should add user failed with exist user account"() {
+        def roleIdList = userService.generateUserRoleList(addedUserRoleName)
         given: "generate add user api request body"
         loginName = "userForTest"
-        userService.addDefaultUser(loginName)
-        def body = new AddUserBody()
+        userService.addUser(loginName)
+        def body = new UserBody()
                 .setUserLoginName(loginName)
                 .setUserNickName("abc123NickName")
                 .setUerPhone("18181971234")
@@ -99,11 +106,11 @@ class AddUserTest extends Specification {
                 .setRoleIdList(roleIdList)
                 .getAddUserBody()
         when: "call add user api interface"
-        userClient.addUserTwo(roleName, body)
+        userClient.addUser(addUserRoleName, body)
                 .statusCode(400)
         then: "no user added"
         where:
-        roleName|roleIdList
-        "systemManager"|["8"]
+        addUserRoleName | addedUserRoleName
+        "systemManager" | "systemManager"
     }
 }
