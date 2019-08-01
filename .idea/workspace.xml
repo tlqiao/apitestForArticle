@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75656b56-0b4c-41d0-9d6c-2bbb6c6cef08" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1011a164-1344-4e2b-b373-e4040e063ae3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3dccfad2-79a5-47c4-8011-d0b07219e932.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.AddUserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.AddUserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.EditUserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.EditUserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.ResetPasswordTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.ResetPasswordTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.SearchUserTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.SearchUserTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.UpdateUserStatusTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/tl86.crown.scenario.userManage.testCase.UpdateUserStatusTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/repository/UserRepository.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/repository/UserRepository.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/service/UserService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/service/UserService.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/AddUserTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/AddUserTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/EditUserTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/EditUserTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/ResetPasswordTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/ResetPasswordTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/SearchUserTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/SearchUserTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/UpdateUserStatusTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/UpdateUserStatusTest.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/tl86/crown/data/user.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/tl86/crown/data/user.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/data/user.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/data/user.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/client/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/client/UserClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/AddUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/AddUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/EditUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/EditUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/ResetPasswordTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/ResetPasswordTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/SearchUserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/SearchUserTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/UpdateUserStatusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/UpdateUserStatusTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/InitTestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/InitTestData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/InitGlobalUserService$_addGlobalUsers_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/InitGlobalUserService$_initGlobalRole_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/InitGlobalUserService$_initRoleMenuId_closure3$_closure4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/InitGlobalUserService$_initRoleMenuId_closure3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/InitGlobalUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/login/LoginClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/login/LoginClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/login/LoginService$_getUserInfoByRole_closure1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/login/LoginService$_getUserInfoByUserName_closure2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/login/LoginService.class" beforeDir="false" />
-    </list>
+    <list default="true" id="75656b56-0b4c-41d0-9d6c-2bbb6c6cef08" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,24 +24,6 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="crown1" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="crown1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="crown1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="crown1: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="crown1" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="crown1: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="sys_user: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -268,11 +210,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="31" />
-    <option name="y" value="23" />
-    <option name="width" value="1397" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -337,15 +277,6 @@
             <path>
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_test" type="462c0819:PsiDirectoryNode" />
-              <item name="screenshotForArticle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -589,7 +520,7 @@
       <workItem from="1563333560137" duration="199000" />
       <workItem from="1563761329205" duration="1531000" />
       <workItem from="1563936142796" duration="48702000" />
-      <workItem from="1564537157793" duration="3698000" />
+      <workItem from="1564537157793" duration="4473000" />
     </task>
     <servers />
   </component>
@@ -626,7 +557,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188565000" />
+    <option name="totallyTimeSpent" value="189340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -638,9 +569,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="31" y="23" width="1397" height="877" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31375465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14481267" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -654,7 +585,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32950193" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.14518318" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32097188" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5014903" side_tool="true" weight="0.35549524" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32950193" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49925485" weight="0.32097188" />
@@ -666,7 +597,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1724907" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.13544668" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3407781" />
     </layout>
