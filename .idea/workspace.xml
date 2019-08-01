@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75656b56-0b4c-41d0-9d6c-2bbb6c6cef08" name="Default" comment="" />
+    <list default="true" id="75656b56-0b4c-41d0-9d6c-2bbb6c6cef08" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/spock-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FirstDemo.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FirstDemo.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/SecondDemo.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/SecondDemo.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/body/addUser.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/body/template/addUserTemplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/config/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/body/userManage/addUserBodyTemplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/config/crownConfig.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/data/role.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/data/user.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/client/UserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/requestBody/UserBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/requestBody/UserManageTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/AddUserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/EditUserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/ResetPasswordTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/SearchUserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/scenario/userManage/testCase/UpdateUserStatusTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/InitTestData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/GlobalUserService$_addGlobalUsers_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/GlobalUserService$_getUserInfoByRole_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/GlobalUserService$_initGlobalRole_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/GlobalUserService$_initRoleMenuId_closure4$_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/GlobalUserService$_initRoleMenuId_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testdata/service/GlobalUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testsuite/CrownTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/testsuite/UserManageTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/ConfigParse$_decryptConfig_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/ConfigParse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/CrownDataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/CrownFileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/Secret.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/crown/util/login/LoginClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/data/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/data/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/data/user.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/ConfigParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/GetDataClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/Secret.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/TestDataService$_getPasswordByUserName_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/TestDataService$_getUserDataByRole_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/TestDataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/testSuite/FirstCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/testSuite/FirstTestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/testSuite/SecondCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/testSuite/TestClassA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/eightCourse/testSuite/TestClassB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fiveCourse/AddUserBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fiveCourse/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fiveCourse/TemplateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fiveCourse/UserClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/db/Case$__spock_feature_0_0_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/db/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/db/ConstantSql.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/db/DataRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/db/DataSource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/file/Case$__spock_feature_0_0_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/file/Case$__spock_feature_0_2_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/file/Case$__spock_feature_0_3_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/file/Case$__spock_feature_0_4_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/file/Case$__spock_feature_0_4_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/file/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/fourCourse/file/FileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/schema/getResumeSchema.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/schema/getResumeSchema1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/secondCourse/FirstDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/secondCourse/FourDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/secondCourse/SecondDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/secondCourse/ThirdDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sevenCourse/XmlClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sevenCourse/XmlDataService$_getAddress_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sevenCourse/XmlDataService$_getMapView_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sevenCourse/XmlDataService$_getMapView_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sevenCourse/XmlDataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeService$_printIfPersonWithSpecialSkill_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeService$_printWorkingDetails_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/sixCourse/ResumeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/Case$__spock_feature_0_0_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy$_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy$_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy$_testFunction_closure6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy$_testFunction_closure7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy$_testMyFunction_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy$_testMyFunction_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy$_testMyFunction_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/ClosureStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/CollectionStudy$_testEach_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/CollectionStudy$_testEach_closure2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/CollectionStudy$_testEach_closure3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/CollectionStudy$_testFind_closure4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/CollectionStudy$_testFind_closure5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/CollectionStudy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/GroovyBasicStudy$_testGstring_closure1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tl86/thirdCourse/GroovyBasicStudy.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +151,7 @@
         <counts>
           <entry key="class" value="9" />
           <entry key="csv" value="8" />
-          <entry key="groovy" value="147" />
+          <entry key="groovy" value="214" />
           <entry key="json" value="14" />
           <entry key="png" value="5" />
           <entry key="sql" value="21" />
@@ -61,7 +164,7 @@
         <counts>
           <entry key="CLASS" value="9" />
           <entry key="Database Element" value="1" />
-          <entry key="Groovy" value="145" />
+          <entry key="Groovy" value="212" />
           <entry key="Image" value="5" />
           <entry key="JSON" value="14" />
           <entry key="PLAIN_TEXT" value="8" />
@@ -73,7 +176,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="42" />
-          <entry key="groovy" value="10096" />
+          <entry key="groovy" value="10207" />
           <entry key="json" value="67" />
           <entry key="sql" value="608" />
           <entry key="txt" value="23" />
@@ -83,7 +186,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="10096" />
+          <entry key="Groovy" value="10207" />
           <entry key="JSON" value="67" />
           <entry key="PLAIN_TEXT" value="65" />
           <entry key="Scratch" value="608" />
@@ -94,7 +197,110 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/FirstCategory.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/FirstTestSuite.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/SecondCategory.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/TestClassA.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <element signature="e#36#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/TestClassB.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#36#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FirstDemo.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding>
+                <element signature="e#33#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FourDemo.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/Case.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-156">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/SecondDemo.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="244">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+              <folding>
+                <element signature="e#33#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/ThirdDemo.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -110,10 +316,12 @@
       <find>schema</find>
       <find>.log().all()</find>
       <find>println</find>
+      <find>tl86</find>
     </findStrings>
     <replaceStrings>
       <replace>\&quot;</replace>
       <replace>userRepository</replace>
+      <replace>github.com</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -122,57 +330,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/requestBody/UserManageTemplate.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/GlobalSecret.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/Demo.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/service/InitGlobalUser.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/repository/InsertUserRepository.groovy" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3dccfad2-79a5-47c4-8011-d0b07219e932/console.sql" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/GlobalService.groovy" />
-        <option value="$PROJECT_DIR$/src/test/resources/tl86/crown/data/role.csv" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/GlobalClient.groovy" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/51bcbcff-e177-4aab-a0ff-c44f1ed10e6e/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7263215f-60a4-456a-bb21-f18fd3a15f6e/console.sql" />
-        <option value="$PROJECT_DIR$/src/test/resources/tl86/test.xml" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/MyTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/Secret.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/CrownFileService.groovy" />
-        <option value="$PROJECT_DIR$/src/test/resources/tl86/config/config.yml" />
-        <option value="$PROJECT_DIR$/src/test/resources/tl86/crown/config/crownConfig.yml" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/ConfigParse.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/CrownDataSource.groovy" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3dccfad2-79a5-47c4-8011-d0b07219e932/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/repository/InitUserRepository.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/one.json" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/two.json" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/InitGlobalUser.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/requestBody/AddUserBody.groovy" />
-        <option value="$PROJECT_DIR$/src/test/resources/tl86/crown/body/userManage/addUserBodyTemplate.json" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/requestBody/UserBody.groovy" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/tl86/test.json" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/UserTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/login/LoginService.groovy" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1011a164-1344-4e2b-b373-e4040e063ae3/console.sql" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/service/InitGlobalUserService.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testsuite/CrownTestSuite.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testsuite/UserManage.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testsuite/UserManageTestSuite.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/ResetPasswordTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/SearchUserTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/UpdateUserStatusTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/EditUserTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/client/UserClient.groovy" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e39ee38e-0959-4fd3-83a9-50b297929f44/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e39ee38e-0959-4fd3-83a9-50b297929f44/console_1.sql" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/repository/UserRepository.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/InitTestData.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/UserRightTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/service/GlobalUserService.groovy" />
-        <option value="$PROJECT_DIR$/src/test/resources/tl86/crown/data/user.csv" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/util/login/LoginClient.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/AddUserTest.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/service/UserService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/requestBody/UserBody.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/repository/UserRepository.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/client/UserClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/service/UserService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/AddUserTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/EditUserTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/ResetPasswordTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/SearchUserTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/UpdateUserStatusTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/testdata/service/GlobalUserService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/testdata/InitTestData.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/testsuite/CrownTest.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/testsuite/UserManageTestSuite.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/util/login/LoginClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/util/ConfigParse.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/util/CrownDataSource.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/util/CrownFileService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/util/Secret.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/requestBody/UserManageTemplate.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/ThirdDemo.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FourDemo.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/Case.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/ClosureStudy.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/CollectionStudy.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/GroovyBasicStudy.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/Case.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/ConstantSql.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/DataRepository.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/file/Case.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/file/FileService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/AddUserBody.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/Case.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/TemplateService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/UserClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/sixCourse/Case.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/sixCourse/ResumeClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/sixCourse/ResumeService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/sevenCourse/XmlClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/sevenCourse/XmlDataService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/FirstCategory.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/FirstTestSuite.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/SecondCategory.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/TestClassA.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/TestClassB.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/ConfigParser.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/GetDataClient.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/Secret.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/TestDataService.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FirstDemo.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/SecondDemo.groovy" />
       </list>
     </option>
   </component>
@@ -278,6 +486,66 @@
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="body" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -300,20 +568,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/tl86/schema" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="tl86.crown.testdata" />
       <recent name="tl86.crown.util.login" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="tl86.eightCourse" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/tl86/schema" />
       <recent name="$PROJECT_DIR$/src/test/groovy/tl86/secondCourse" />
       <recent name="$PROJECT_DIR$/screenshotForArticle" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tl86.eightCourse" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/github/com" />
+      <recent name="$PROJECT_DIR$/src/test/groovy/github/com" />
+      <recent name="$PROJECT_DIR$/src/test/resources/tl86/schema" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -328,7 +598,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserManageTestSuite">
+  <component name="RunManager" selected="JUnit.GroovyBasicStudy">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -341,80 +611,78 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddUserTest.should add user failed when not filling all required information" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Case" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tl86.crown.scenario.userManage.testCase.*" />
+          <option name="PATTERN" value="github.com.thirdCourse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tl86.crown.scenario.userManage.testCase" />
-      <option name="MAIN_CLASS_NAME" value="tl86.crown.scenario.userManage.testCase.AddUserTest" />
-      <option name="METHOD_NAME" value="should add user failed when not filling all required information" />
+      <option name="PACKAGE_NAME" value="github.com.thirdCourse" />
+      <option name="MAIN_CLASS_NAME" value="github.com.thirdCourse.Case" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClosureStudy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.com.thirdCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.com.thirdCourse" />
+      <option name="MAIN_CLASS_NAME" value="github.com.thirdCourse.ClosureStudy" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionStudy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.com.thirdCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.com.thirdCourse" />
+      <option name="MAIN_CLASS_NAME" value="github.com.thirdCourse.CollectionStudy" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FourDemo.should add user successfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="github.com.secondCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="github.com.secondCourse" />
+      <option name="MAIN_CLASS_NAME" value="github.com.secondCourse.FourDemo" />
+      <option name="METHOD_NAME" value="should add user successfully" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddUserTest.should add user failed when not filling roleList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroovyBasicStudy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tl86.crown.scenario.userManage.testCase.*" />
+          <option name="PATTERN" value="github.com.thirdCourse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tl86.crown.scenario.userManage.testCase" />
-      <option name="MAIN_CLASS_NAME" value="tl86.crown.scenario.userManage.testCase.AddUserTest" />
-      <option name="METHOD_NAME" value="should add user failed when not filling roleList" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tl86.crown.scenario.userManage.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tl86.crown.scenario.userManage.testCase" />
-      <option name="MAIN_CLASS_NAME" value="tl86.crown.scenario.userManage.testCase.SearchUserTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UpdateUserStatusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tl86.crown.scenario.userManage.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tl86.crown.scenario.userManage.testCase" />
-      <option name="MAIN_CLASS_NAME" value="tl86.crown.scenario.userManage.testCase.UpdateUserStatusTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserManageTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tl86.crown.testsuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tl86.crown.testsuite" />
-      <option name="MAIN_CLASS_NAME" value="tl86.crown.testsuite.UserManageTestSuite" />
+      <option name="PACKAGE_NAME" value="github.com.thirdCourse" />
+      <option name="MAIN_CLASS_NAME" value="github.com.thirdCourse.GroovyBasicStudy" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -444,19 +712,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SearchUserTest" />
-      <item itemvalue="JUnit.UpdateUserStatusTest" />
-      <item itemvalue="JUnit.UserManageTestSuite" />
-      <item itemvalue="JUnit.AddUserTest.should add user failed when not filling all required information" />
-      <item itemvalue="JUnit.AddUserTest.should add user failed when not filling roleList" />
+      <item itemvalue="JUnit.FourDemo.should add user successfully" />
+      <item itemvalue="JUnit.Case" />
+      <item itemvalue="JUnit.ClosureStudy" />
+      <item itemvalue="JUnit.CollectionStudy" />
+      <item itemvalue="JUnit.GroovyBasicStudy" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserManageTestSuite" />
-        <item itemvalue="JUnit.AddUserTest.should add user failed when not filling roleList" />
-        <item itemvalue="JUnit.AddUserTest.should add user failed when not filling all required information" />
-        <item itemvalue="JUnit.UpdateUserStatusTest" />
-        <item itemvalue="JUnit.SearchUserTest" />
+        <item itemvalue="JUnit.GroovyBasicStudy" />
+        <item itemvalue="JUnit.CollectionStudy" />
+        <item itemvalue="JUnit.ClosureStudy" />
+        <item itemvalue="JUnit.Case" />
+        <item itemvalue="JUnit.FourDemo.should add user successfully" />
       </list>
     </recent_temporary>
   </component>
@@ -520,44 +788,44 @@
       <workItem from="1563333560137" duration="199000" />
       <workItem from="1563761329205" duration="1531000" />
       <workItem from="1563936142796" duration="48702000" />
-      <workItem from="1564537157793" duration="4473000" />
+      <workItem from="1564537157793" duration="6921000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserManageTestSuite - 2019.07.30 at 20h 15m 38s.xml">
-      <configuration name="UserManageTestSuite" configurationId="JUnit" />
+    <history-entry file="SecondDemo - 2019.08.01 at 15h 13m 33s.xml">
+      <configuration name="SecondDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_should_add_user_failed_when_not_filling_all_required_information - 2019.07.30 at 20h 16m 07s.xml">
-      <configuration name="AddUserTest.should add user failed when not filling all required information" configurationId="JUnit" />
+    <history-entry file="SecondDemo - 2019.08.01 at 15h 14m 03s.xml">
+      <configuration name="SecondDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_should_add_user_failed_when_not_filling_all_required_information - 2019.07.30 at 20h 16m 54s.xml">
-      <configuration name="AddUserTest.should add user failed when not filling all required information" configurationId="JUnit" />
+    <history-entry file="SecondDemo_should_get_user_details_by_user_name_successfully - 2019.08.01 at 15h 14m 14s.xml">
+      <configuration name="SecondDemo.should get user details by user name successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_should_add_user_failed_when_not_filling_all_required_information - 2019.07.30 at 20h 17m 21s.xml">
-      <configuration name="AddUserTest.should add user failed when not filling all required information" configurationId="JUnit" />
+    <history-entry file="ThirdDemo_should_call_get_user_by_name_and_age_api_successfully - 2019.08.01 at 15h 14m 22s.xml">
+      <configuration name="ThirdDemo.should call get user by name and age api successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_should_add_user_failed_when_not_filling_all_required_information - 2019.07.30 at 20h 17m 41s.xml">
-      <configuration name="AddUserTest.should add user failed when not filling all required information" configurationId="JUnit" />
+    <history-entry file="FourDemo_should_add_user_successfully - 2019.08.01 at 15h 14m 33s.xml">
+      <configuration name="FourDemo.should add user successfully" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_should_add_user_failed_when_not_filling_all_required_information - 2019.07.30 at 20h 18m 01s.xml">
-      <configuration name="AddUserTest.should add user failed when not filling all required information" configurationId="JUnit" />
+    <history-entry file="Case - 2019.08.01 at 15h 28m 48s.xml">
+      <configuration name="Case" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_should_add_user_failed_when_not_filling_all_required_information - 2019.07.30 at 20h 18m 14s.xml">
-      <configuration name="AddUserTest.should add user failed when not filling all required information" configurationId="JUnit" />
+    <history-entry file="Case - 2019.08.01 at 15h 29m 49s.xml">
+      <configuration name="Case" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddUserTest_should_add_user_failed_when_not_filling_roleList - 2019.07.30 at 20h 20m 17s.xml">
-      <configuration name="AddUserTest.should add user failed when not filling roleList" configurationId="JUnit" />
+    <history-entry file="ClosureStudy - 2019.08.01 at 15h 29m 53s.xml">
+      <configuration name="ClosureStudy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserManageTestSuite - 2019.07.30 at 20h 20m 31s.xml">
-      <configuration name="UserManageTestSuite" configurationId="JUnit" />
+    <history-entry file="CollectionStudy - 2019.08.01 at 15h 29m 57s.xml">
+      <configuration name="CollectionStudy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserManageTestSuite - 2019.07.30 at 20h 20m 59s.xml">
-      <configuration name="UserManageTestSuite" configurationId="JUnit" />
+    <history-entry file="GroovyBasicStudy - 2019.08.01 at 15h 30m 01s.xml">
+      <configuration name="GroovyBasicStudy" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189340000" />
+    <option name="totallyTimeSpent" value="191788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,7 +839,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14481267" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2629683" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -579,15 +847,15 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850968" weight="0.36445013" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286445" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850968" visible="true" weight="0.36445013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39755768" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32950193" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32097188" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32097188" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5014903" side_tool="true" weight="0.35549524" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32950193" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286445" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49925485" weight="0.32097188" />
       <window_info anchor="bottom" id="Database Console" order="11" sideWeight="0.49925485" weight="0.45524296" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -672,19 +940,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy</url>
+          <url>file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/file/Case.groovy</url>
           <line>58</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy</url>
+          <url>file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/file/Case.groovy</url>
           <line>60</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/groovy/tl86/fourCourse/file/Case.groovy</url>
+          <url>file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/file/Case.groovy</url>
           <line>61</line>
           <properties />
           <option name="timeStamp" value="16" />
@@ -712,321 +980,420 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/fiveCourse/UserClient.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/util/Secret.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="200">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#25#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/requestBody/test.json" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/UserListPageTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/test.json" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.9/commons-codec-1.9.jar!/org/apache/commons/codec/digest/Md5Crypt.class">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/util/CrownFileService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/crown/data/role.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/util/CrownDataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/UserTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/util/login/LoginService.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeService.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/util/ConfigParse.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/util/login/LoginClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#37#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/testsuite/UserManageTestSuite.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#36#87#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1011a164-1344-4e2b-b373-e4040e063ae3/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/ResumeClient.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/sixCourse/Case.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/body/template/addUserTemplate.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/crown/body/userManage/addUserBodyTemplate.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/util/CrownFileService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/util/CrownDataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/util/ConfigParse.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="2" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/eightCourse/testSuite/FirstTestSuite.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/eightCourse/testSuite/TestClassA.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/eightCourse/testSuite/TestClassB.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/testsuite/CrownTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/testsuite/CrownTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/UpdateUserStatusTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/testdata/InitTestData.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#35#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/testdata/service/GlobalUserService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
           <folding>
-            <element signature="e#49#98#0" expanded="true" />
+            <element signature="e#43#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1011a164-1344-4e2b-b373-e4040e063ae3/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/crown/config/crownConfig.yml">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/UpdateUserStatusTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="160">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/repository/UserRepository.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/SearchUserTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="22" column="75" lean-forward="true" selection-start-line="22" selection-start-column="75" selection-end-line="22" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/client/UserClient.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="280">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <element signature="e#47#77#0" expanded="true" />
+            <element signature="e#55#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/service/GlobalUserService.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/ResetPasswordTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+        <state relative-caret-position="240">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="e#37#100#0" expanded="true" />
+            <element signature="e#55#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/UserRightTest.groovy" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/crown/data/user.csv">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/EditUserTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e39ee38e-0959-4fd3-83a9-50b297929f44/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="183" lean-forward="true" selection-end-line="183" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e39ee38e-0959-4fd3-83a9-50b297929f44/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/EditUserTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="54" column="7" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
+        <state relative-caret-position="240">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="e#49#98#0" expanded="true" />
+            <element signature="e#55#104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/ResetPasswordTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-          <folding>
-            <element signature="e#49#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/SearchUserTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding>
-            <element signature="e#49#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/testsuite/UserManageTestSuite.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#30#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/util/login/LoginClient.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding>
-            <element signature="e#31#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/secondCourse/FourDemo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/service/UserService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
-          <folding>
-            <element signature="e#48#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/testdata/InitTestData.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/testCase/AddUserTest.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="44" />
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
           <folding>
-            <element signature="e#29#50#0" expanded="true" />
+            <element signature="e#55#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/service/UserService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+        <state relative-caret-position="100">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#54#101#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/wiremockApi.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/initProjectStructure.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/userMenuIdList.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/web1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema1.json">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/repository/UserRepository.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/tl86/schema/getResumeSchema.json">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/client/UserClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-988">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#53#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/requestBody/UserManageTemplate.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+          <folding>
+            <element signature="e#58#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/crown/scenario/userManage/requestBody/UserBody.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/ClosureStudy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/CollectionStudy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/GroovyBasicStudy.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/file/FileService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#30#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/file/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <element signature="e#34#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/DataRepository.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/ConstantSql.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/AddUserBody.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/TemplateService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/fiveCourse/UserClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/sixCourse/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/sixCourse/ResumeClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/sixCourse/ResumeService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/sevenCourse/XmlClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/sevenCourse/XmlDataService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/TestDataService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/Secret.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#26#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/eightCourse/testSuite/FirstCategory.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/GetDataClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/ConfigParser.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/FirstCategory.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshotForArticle/wirmockStructer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/requestBody/UserBody.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/FirstTestSuite.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/tl86/crown/scenario/userManage/testCase/AddUserTest.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/SecondCategory.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="79" column="33" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="33" />
+        <state relative-caret-position="40">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/TestClassA.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
           <folding>
-            <element signature="e#49#72#0" expanded="true" />
+            <element signature="e#36#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/eightCourse/testSuite/TestClassB.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#36#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FirstDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="e#33#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/SecondDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#33#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/ThirdDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/secondCourse/FourDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/Case.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
