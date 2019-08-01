@@ -1,5 +1,6 @@
 package tl86.crown.scenario.userManage.testCase
 
+import org.junit.experimental.categories.Category
 import spock.lang.Specification
 import tl86.crown.scenario.userManage.client.UserClient
 import tl86.crown.scenario.userManage.repository.UserRepository
@@ -8,7 +9,7 @@ import tl86.crown.testsuite.CrownTest
 
 import static org.assertj.core.api.Assertions.assertThat
 
-@Category(CrownTest)
+@Category([CrownTest])
 class ResetPasswordTest extends Specification {
     UserService userService
     UserClient userClient
@@ -32,9 +33,11 @@ class ResetPasswordTest extends Specification {
         def uid = userRepository.getUserInfoByUserName(loginName).uid
         userClient.resetUserPassword(resetPasswordRoleName, uid)
         then: "should user's password is equal to loginName"
-        assertThat(userRepository.getUserInfoByUserName(loginName).password).isEqualTo(userService.getEncytptPassword(loginName, loginName))
+        assertThat(userRepository.getUserInfoByUserName(loginName).password).isEqualTo(userService.getEncryptPassword(loginName, loginName))
         where:
         password | resetPasswordRoleName
         "abc456" | "systemManager"
+        "abc456" | "userManager"
+        "abc456" | "roleManager"
     }
 }

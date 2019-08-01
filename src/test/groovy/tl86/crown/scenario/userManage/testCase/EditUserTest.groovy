@@ -1,5 +1,6 @@
 package tl86.crown.scenario.userManage.testCase
 
+import org.junit.experimental.categories.Category
 import spock.lang.Specification
 import tl86.crown.scenario.userManage.client.UserClient
 import tl86.crown.scenario.userManage.repository.UserRepository
@@ -8,8 +9,7 @@ import tl86.crown.scenario.userManage.service.UserService
 import tl86.crown.testsuite.CrownTest
 
 import static org.assertj.core.api.Assertions.assertThat
-
-@Category(CrownTest)
+@Category([CrownTest])
 class EditUserTest extends Specification {
     UserService userService
     UserRepository userRepository
@@ -51,5 +51,7 @@ class EditUserTest extends Specification {
         where:
         updateUserRoleName|newNickName|newPhone|newEmail
         "systemManager"| "newNickName"|"18181991122"|"newEmail@163.com"
+        "userManager"| "newNickName"|"18181991122"|"newEmail@163.com"
+        "roleManager"| "newNickName"|"18181991122"|"newEmail@163.com"
     }
 }

@@ -41,7 +41,7 @@
       <user-name>root</user-name>
       <introspection-schemas>*:dvwa</introspection-schemas>
     </data-source>
-    <data-source name="crown1" uuid="1011a164-1344-4e2b-b373-e4040e063ae3">
+    <data-source name="crown1" uuid="e39ee38e-0959-4fd3-83a9-50b297929f44">
       <database-info product="MySQL" version="5.6.32" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.45 ( Revision: 9131eefa398531c7dc98776e8a3fe839e544c5b2 )" family="MYSQL" exact-version="5.6.32">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>

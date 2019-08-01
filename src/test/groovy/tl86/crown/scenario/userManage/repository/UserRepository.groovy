@@ -20,7 +20,7 @@ class UserRepository extends CrownDataSource {
     }
 
     void deleteUserTableByUserName(userName) {
-        def deleteSysUserRoleSql = "delete from sys_user_role where uid in (select uid from sys_user where login_name=?)"
+        def deleteSysUserRoleSql = "delete from sys_user where login_name=?"
         crownDB.execute(deleteSysUserRoleSql, [userName])
     }
 

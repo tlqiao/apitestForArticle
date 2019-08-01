@@ -1,12 +1,13 @@
 package tl86.crown.scenario.userManage.testCase
 
+import org.junit.experimental.categories.Category
 import spock.lang.Specification
 import tl86.crown.scenario.userManage.client.UserClient
 import tl86.crown.scenario.userManage.service.UserService
 import tl86.crown.testsuite.CrownTest
-import static org.assertj.core.api.Assertions.assertThat
 
-@Category(CrownTest)
+import static org.assertj.core.api.Assertions.assertThat
+@Category([CrownTest])
 class SearchUserTest extends Specification {
     UserClient userClient
     UserService userService
