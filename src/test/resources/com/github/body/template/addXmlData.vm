@@ -1,0 +1,7 @@
+<bookstore>
+    <book>
+        <bookName>${addXmlData.bookName}</bookName>
+        <price>${addXmlData.price}</price>
+        <author>${addXmlData.author}</author>
+    </book>
+</bookstore>

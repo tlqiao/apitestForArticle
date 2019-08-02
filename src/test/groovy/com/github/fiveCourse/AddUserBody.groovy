@@ -46,6 +46,6 @@ class AddUserBody {
     }
 
     def generateBody() {
-      new TemplateService().getAddUserRequestBody(this)
+      new JsonTemplateService().getAddUserRequestBody(this)
     }
 }

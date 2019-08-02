@@ -1,16 +1,17 @@
-package com.github.fiveCourse
+package com.github.sevenCourse
 
 import org.apache.velocity.VelocityContext
 import org.apache.velocity.app.VelocityEngine
 
-class TemplateService {
+class XmlTemplateService {
     VelocityEngine velocityEngine = new VelocityEngine()
     VelocityContext velocityContext = new VelocityContext()
     StringWriter stringWriter = new StringWriter()
 
-    def getAddUserRequestBody(addUserBody) {
-        velocityContext.put("addUserBody",addUserBody)
-        velocityEngine.getTemplate("src/test/resources/com/github/body/template/addUserTemplate.json").merge(velocityContext,stringWriter)
+    def getAddXmlDataBody(addXmlData) {
+        velocityContext.put("addXmlData", addXmlData)
+        velocityEngine.getTemplate("src/test/resources/com/github/body/template/addXmlData.vm").merge(velocityContext, stringWriter)
         stringWriter.toString()
     }
 }
+
