@@ -1,14 +1,14 @@
-active: crown
+active: dev
 dev:
   db:
     url: jdbc:mysql://127.0.0.1:3306/springbootdb
     user: root
     password: root
-  baseUrl: http://localhost:9090/
+  mockServerUrl: http://localhost:9090/
 stable:
   db:
     url: jdbc:mysql://127.0.0.1:3306/springbootdb
     user: root
     passowrd: root
-  baseUrl: http://localhost:9099/
+  mockServerUrl: http://localhost:9099/
 

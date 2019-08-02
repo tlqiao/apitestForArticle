@@ -11,7 +11,7 @@ class Case extends Specification {
 
     def "should create and read txt file successfully"() {
         given: "create txt file"
-        def file = fileService.createFile("./src/test/resources/github/data/test.txt")
+        def file = fileService.createFile("./src/test/resources/com/github/data/test.txt")
         when: "write some content to the file"
         // 支持通过<<写入文件内容
         file << "name,age,address\n"
@@ -27,7 +27,7 @@ class Case extends Specification {
     def "should read yml file successfully"() {
         given: "no given"
         when: "get the csv data "
-        def configs = fileService.getConfigs('./src/test/resources/github/config/config.yml')
+        def configs = fileService.getConfigs('./src/test/resources/com/github/config/config.yml')
         then: "print data"
         println configs.stable.db.url
         println configs.active
@@ -36,15 +36,15 @@ class Case extends Specification {
     def "should read csv file successfully"() {
         given: "no given"
         when: "get the csv file data"
-        def csvContent = fileService.getCsvFileContent('./src/test/resources/github/data/test.csv', ',')
-        then: "println the data"
+        def csvContent = fileService.getCsvFileContent('./src/test/resources/com/github/data/test.csv', ',')
         csvContent.each{ it -> println it.name + ":" + it.age + ":" + it.address }
+        then: "no then"
     }
 
     def "should read json file successfully"() {
         given: ""
         when: "get json file data"
-        def jsonContent = fileService.getCollectionFromJsonFile('./src/test/resources/github/data/test.json')
+        def jsonContent = fileService.getCollectionFromJsonFile('./src/test/resources/com/github/data/test.json')
         then: "println the data"
         println jsonContent.pipelineName
         println jsonContent.sonar.coverage
@@ -56,7 +56,7 @@ class Case extends Specification {
     def "should read xml file successfully"() {
         given: ""
         when: "get json file data"
-        def xmlContent = fileService.getCollectionFromXMLFile('./src/test/resources/github/data/test.xml')
+        def xmlContent = fileService.getCollectionFromXMLFile('./src/test/resources/com/github/data/test.xml')
         then: "println the data"
         xmlContent.person.each{ println it }
         println xmlContent.person.find{ it -> it.name == "DAVE" }.age

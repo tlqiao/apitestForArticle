@@ -16,7 +16,7 @@ class Case extends Specification {
     def "should add user successfully"() {
         given: "no given"
         when: "call the add user api"
-        def file = fileService.createFile("./src/test/resources/github/body/addUser.json")
+        def file = fileService.createFile("./src/test/resources/com/github/body/addUser.json")
         then: "get the correct response"
         Assert.assertEquals(userClient.addUserWithFile(file), "add user successfully")
     }

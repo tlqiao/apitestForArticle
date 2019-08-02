@@ -31,7 +31,7 @@ class ConfigParse {
 
     def getGlobalConfig() {
         def configs
-        configs = getConfigs("src/test/resources/github/crown/config/crownConfig.yml")
+        configs = getConfigs("src/test/resources/com/github/crown/config/crownConfig.yml")
         decryptConfig(configs,configs.decryptKey)
     }
 }

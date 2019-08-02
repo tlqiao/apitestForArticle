@@ -10,12 +10,12 @@ class TestDataService {
     }
 
     def getUserFileData() {
-        def userData = fileService.getCsvFileContent("src/test/resources/github/data/user.csv", ",")
+        def userData = fileService.getCsvFileContent("src/test/resources/com/github/data/user.csv", ",")
         userData
     }
 
     def getUserDataByRole(roleName) {
-        getUserFileData().find { it -> it.rolename == roleName }
+        getUserFileData().find { it -> it.roleName == roleName }
     }
 
     def getPasswordByUserName(userName) {

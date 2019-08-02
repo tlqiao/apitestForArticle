@@ -18,7 +18,7 @@ class ConfigParser {
 
     def getGlobalConfig() {
         def configs
-        configs =getConfigs("src/test/resources/github/config/config.yml")
+        configs =getConfigs("src/test/resources/com/github/config/config.yml")
         configs
     }
 }

@@ -10,7 +10,7 @@ class DataSource {
 
     DataSource() {
         fileService = new FileService()
-        configs = fileService.getConfigs('./src/test/resources/github/config/config.yml')
+        configs = fileService.getConfigs('./src/test/resources/com/github/config/config.yml')
     }
 
     Sql getSpringBootDB() {

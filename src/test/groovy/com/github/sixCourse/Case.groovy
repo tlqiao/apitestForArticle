@@ -58,7 +58,7 @@ class Case extends Specification {
         then: "no then"
         where:
         filePath|placeHolder
-        "github/schema/getResumeSchema1.json"|""
+        "com/github/schema/getResumeSchema2.json"|""
     }
 
     def "validate schema of getResume2 api"() {
@@ -69,6 +69,6 @@ class Case extends Specification {
         assertThat(payLoad, matchesJsonSchemaInClasspath(filePath))
         where:
         filePath|placeHolder
-        "github/schema/getResumeSchema1.json"|""
+        "com/github/schema/getResumeSchema2.json"|""
     }
 }

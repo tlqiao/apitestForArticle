@@ -6,15 +6,15 @@ import static io.restassured.RestAssured.given
 
 class GetDataClient {
     ConfigParser configParser
-    TestDataService userTestData
+    TestDataService testDataService
     def configs
     def users
 
     GetDataClient() {
         configParser = new ConfigParser()
-        userTestData = new TestDataService()
+        testDataService = new TestDataService()
         configs = configParser.getGlobalConfig()
-        users = userTestData.getUserDataByRole("ForGetDataApi")
+        users = testDataService.getUserDataByRole("ForGetDataApi")
     }
 
     void getData() {

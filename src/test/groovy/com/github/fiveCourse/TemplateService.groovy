@@ -10,7 +10,7 @@ class TemplateService {
 
     def getAddUserRequestBody(addUserBody) {
         velocityContext.put("addUserBody",addUserBody)
-        velocityEngine.getTemplate("src/test/resources/github/body/template/addUserTemplate.json").merge(velocityContext,stringWriter)
+        velocityEngine.getTemplate("src/test/resources/com/github/body/template/addUserTemplate.json").merge(velocityContext,stringWriter)
         stringWriter.toString()
     }
 }

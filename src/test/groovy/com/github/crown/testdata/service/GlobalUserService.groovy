@@ -16,11 +16,11 @@ class GlobalUserService {
     }
 
     private def getAllUserInfo() {
-        crownFileService.getCsvFileContent("src/test/resources/github/crown/data/user.csv", ",")
+        crownFileService.getCsvFileContent("src/test/resources/com/github/crown/data/user.csv", ",")
     }
 
     private def getAllRoleMenuInfo() {
-        crownFileService.getCsvFileContent("src/test/resources/github/crown/data/role.csv", ";")
+        crownFileService.getCsvFileContent("src/test/resources/com/github/crown/data/role.csv", ";")
     }
 
     def getUserInfoByRole(roleName) {

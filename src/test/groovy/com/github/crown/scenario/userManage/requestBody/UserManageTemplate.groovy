@@ -11,7 +11,7 @@ class UserManageTemplate {
     def getAddUserRequestBody(UserBody addUserBody) {
         velocityContext.put("userInfo",addUserBody.userInfo)
         velocityContext.put("roleIdList",addUserBody.roleIdList)
-        velocityEngine.getTemplate("src/test/resources/github/com/crown/body/userManage/addUserBodyTemplate.json").merge(velocityContext,stringWriter)
+        velocityEngine.getTemplate("src/test/resources/com/github/crown/body/userManage/addUserBodyTemplate.json").merge(velocityContext,stringWriter)
         stringWriter.toString()
     }
 }
