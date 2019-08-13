@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75656b56-0b4c-41d0-9d6c-2bbb6c6cef08" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/AddXmlDataBody.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/AddXmlDataCase.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlTemplateService.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/com/github/body/template/addXmlData.vm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/aggregated_report.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/spock-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/spock-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/github/fiveCourse/AddUserBody.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/github/fiveCourse/AddUserBody.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/github/fiveCourse/TemplateService.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/github/fiveCourse/JsonTemplateService.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlClient.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlClient.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/InitTestData.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/InitTestData.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/UserManageTestSuite.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/UserManageTestSuite.groovy" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,16 +38,18 @@
     <session id="887818229">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.13" value="3" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.13" value="4" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,10 +57,10 @@
           <entry key="class" value="9" />
           <entry key="csv" value="12" />
           <entry key="gitignore" value="1" />
-          <entry key="groovy" value="264" />
+          <entry key="groovy" value="292" />
           <entry key="java" value="1" />
           <entry key="json" value="17" />
-          <entry key="png" value="5" />
+          <entry key="png" value="8" />
           <entry key="sql" value="21" />
           <entry key="sys_user_role" value="1" />
           <entry key="vm" value="1" />
@@ -75,8 +72,8 @@
         <counts>
           <entry key="CLASS" value="9" />
           <entry key="Database Element" value="1" />
-          <entry key="Groovy" value="262" />
-          <entry key="Image" value="5" />
+          <entry key="Groovy" value="290" />
+          <entry key="Image" value="8" />
           <entry key="JAVA" value="1" />
           <entry key="JSON" value="17" />
           <entry key="PLAIN_TEXT" value="13" />
@@ -90,7 +87,7 @@
         <counts>
           <entry key="csv" value="43" />
           <entry key="gitignore" value="33" />
-          <entry key="groovy" value="11494" />
+          <entry key="groovy" value="11506" />
           <entry key="json" value="67" />
           <entry key="sql" value="608" />
           <entry key="txt" value="23" />
@@ -101,7 +98,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="11494" />
+          <entry key="Groovy" value="11506" />
           <entry key="JSON" value="67" />
           <entry key="PLAIN_TEXT" value="99" />
           <entry key="Scratch" value="608" />
@@ -115,92 +112,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlDataService.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/service/GlobalUserService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/AddXmlDataCase.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="316">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
               <folding>
-                <element signature="e#32#55#0" expanded="true" />
+                <element signature="e#44#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sixCourse/ResumeService.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/CrownTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-56">
+            <state relative-caret-position="40">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/UserManageTestSuite.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="83" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
+              <folding>
+                <element signature="e#36#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/login/LoginClient.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/CrownDataSource.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/fiveCourse/JsonTemplateService.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/CrownFileService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="80">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/AddUserTest.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="e#31#73#0" expanded="true" />
+                <element signature="e#55#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlTemplateService.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/ConfigParse.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <element signature="e#32#74#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="660">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/AddXmlDataBody.groovy">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/EditUserTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="-210">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/addUser.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/template/addUserTemplate.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/template/addXmlData.vm">
+        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/ResetPasswordTest.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlClient.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="24">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -243,8 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/ClosureStudy.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/CollectionStudy.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/github/com/thirdCourse/GroovyBasicStudy.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/Case.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/github/com/fourCourse/db/ConstantSql.groovy" />
@@ -294,6 +297,8 @@
         <option value="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlDataService.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlClient.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/AddXmlDataCase.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/InitTestData.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/UserManageTestSuite.groovy" />
       </list>
     </option>
   </component>
@@ -332,9 +337,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1397" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -391,7 +395,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -432,7 +435,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="fiveCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
@@ -441,7 +444,131 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="groovy" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="sevenCourse" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="userManage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="userManage" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="userManage" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="userManage" type="462c0819:PsiDirectoryNode" />
+              <item name="requestBody" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="userManage" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="scenario" type="462c0819:PsiDirectoryNode" />
+              <item name="userManage" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api_test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="groovy" type="462c0819:PsiDirectoryNode" />
+              <item name="github" type="462c0819:PsiDirectoryNode" />
+              <item name="crown" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
@@ -457,31 +584,13 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="github" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="body" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="github" type="462c0819:PsiDirectoryNode" />
-              <item name="body" type="462c0819:PsiDirectoryNode" />
-              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -530,7 +639,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddXmlDataCase.should add xml data with invalid bookName failed">
+  <component name="RunManager" selected="JUnit.UserManageTestSuite">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -575,31 +684,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResetPasswordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.crown.scenario.userManage.testCase.*" />
+          <option name="PATTERN" value="com.github.secondCourse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.github.crown.scenario.userManage.testCase" />
-      <option name="MAIN_CLASS_NAME" value="com.github.crown.scenario.userManage.testCase.ResetPasswordTest" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.crown.scenario.userManage.testCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.crown.scenario.userManage.testCase" />
-      <option name="MAIN_CLASS_NAME" value="com.github.crown.scenario.userManage.testCase.SearchUserTest" />
+      <option name="PACKAGE_NAME" value="com.github.secondCourse" />
+      <option name="MAIN_CLASS_NAME" value="com.github.secondCourse.FirstDemo" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -615,6 +709,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.github.crown.scenario.userManage.testCase" />
       <option name="MAIN_CLASS_NAME" value="com.github.crown.scenario.userManage.testCase.UpdateUserStatusTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserManageTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.crown.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.crown.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="com.github.crown.testsuite.UserManageTestSuite" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -644,19 +753,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ResetPasswordTest" />
-      <item itemvalue="JUnit.SearchUserTest" />
       <item itemvalue="JUnit.UpdateUserStatusTest" />
       <item itemvalue="JUnit.AddXmlDataCase" />
       <item itemvalue="JUnit.AddXmlDataCase.should add xml data with invalid bookName failed" />
+      <item itemvalue="JUnit.FirstDemo" />
+      <item itemvalue="JUnit.UserManageTestSuite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserManageTestSuite" />
+        <item itemvalue="JUnit.FirstDemo" />
         <item itemvalue="JUnit.AddXmlDataCase.should add xml data with invalid bookName failed" />
         <item itemvalue="JUnit.AddXmlDataCase" />
         <item itemvalue="JUnit.UpdateUserStatusTest" />
-        <item itemvalue="JUnit.SearchUserTest" />
-        <item itemvalue="JUnit.ResetPasswordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -718,20 +827,16 @@
       <workItem from="1564537157793" duration="7750000" />
       <workItem from="1564647067868" duration="256000" />
       <workItem from="1564652183830" duration="727000" />
-      <workItem from="1564710325318" duration="7219000" />
+      <workItem from="1564710325318" duration="7690000" />
+      <workItem from="1565054388981" duration="597000" />
+      <workItem from="1565319501766" duration="121000" />
+      <workItem from="1565534785495" duration="289000" />
+      <workItem from="1565569945376" duration="951000" />
+      <workItem from="1565625715189" duration="923000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddXmlDataCase - 2019.08.02 at 16h 45m 12s.xml">
-      <configuration name="AddXmlDataCase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddXmlDataCase - 2019.08.02 at 16h 45m 33s.xml">
-      <configuration name="AddXmlDataCase" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddXmlDataCase - 2019.08.02 at 16h 57m 09s.xml">
-      <configuration name="AddXmlDataCase" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddXmlDataCase - 2019.08.02 at 16h 58m 30s.xml">
       <configuration name="AddXmlDataCase" configurationId="JUnit" />
     </history-entry>
@@ -753,9 +858,18 @@
     <history-entry file="AddXmlDataCase - 2019.08.02 at 17h 07m 59s.xml">
       <configuration name="AddXmlDataCase" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddXmlDataCase_should_add_xml_data_with_invalid_bookName_failed - 2019.08.02 at 17h 16m 33s.xml">
+      <configuration name="AddXmlDataCase.should add xml data with invalid bookName failed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddXmlDataCase_should_add_xml_data_with_invalid_bookName_failed - 2019.08.02 at 17h 16m 57s.xml">
+      <configuration name="AddXmlDataCase.should add xml data with invalid bookName failed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstDemo - 2019.08.09 at 10h 59m 04s.xml">
+      <configuration name="FirstDemo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200819000" />
+    <option name="totallyTimeSpent" value="204171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -768,9 +882,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30331412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28097984" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -779,7 +892,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286445" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850968" visible="true" weight="0.36445013" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49850968" weight="0.36445013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39641944" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -892,96 +1005,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/secondCourse/ThirdDemo.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/thirdCourse/GroovyBasicStudy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/thirdCourse/CollectionStudy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/thirdCourse/ClosureStudy.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/thirdCourse/Case.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/fourCourse/db/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-          <folding>
-            <element signature="e#34#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/fourCourse/db/DataRepository.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/fourCourse/db/ConstantSql.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/fourCourse/db/Case.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-649">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#34#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/fourCourse/file/FileService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/data/test.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -1007,9 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-476">
           <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding>
-            <element signature="e#31#54#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,9 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#30#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,9 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <element signature="e#42#93#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,9 +1105,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="e#42#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1101,9 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-410">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="e#32#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,47 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/ConfigParse.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/CrownFileService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="e#31#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/CrownDataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/service/GlobalUserService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-781">
-          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/client/UserClient.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
-          <folding>
-            <element signature="e#53#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/repository/UserRepository.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-836">
@@ -1162,91 +1129,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/requestBody/UserBody.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/requestBody/UserManageTemplate.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
-          <folding>
-            <element signature="e#58#100#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/service/UserService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/UserManageTestSuite.groovy">
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlDataService.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/InitTestData.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sixCourse/ResumeService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56">
+        <state relative-caret-position="80">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/fiveCourse/JsonTemplateService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="80">
           <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#31#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/package-info.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/addUser.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/template/addUserTemplate.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlDataService.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/template/addXmlData.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlTemplateService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="80">
           <caret line="5" selection-start-line="5" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#32#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,19 +1165,179 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/addUser.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/template/addUserTemplate.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/github/body/template/addXmlData.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/XmlClient.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/sevenCourse/AddXmlDataCase.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="800">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/secondCourse/FirstDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/secondCourse/FourDemo.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshotForArticle/shujuliang2.png" />
+    <entry file="file://$PROJECT_DIR$/screenshotForArticle/shujuliang.png" />
+    <entry file="file://$PROJECT_DIR$/screenshotForArticle/性能测试2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/InitTestData.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/client/UserClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/requestBody/UserManageTemplate.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/requestBody/UserBody.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/SearchUserTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/UpdateUserStatusTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
-            <element signature="e#32#55#0" expanded="true" />
+            <element signature="e#55#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/service/UserService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/EditUserTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/ResetPasswordTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testdata/service/GlobalUserService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+          <folding>
+            <element signature="e#44#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/CrownTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/CrownFileService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/CrownDataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/ConfigParse.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/util/login/LoginClient.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/scenario/userManage/testCase/AddUserTest.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#55#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/com/github/crown/testsuite/UserManageTestSuite.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="83" selection-start-line="13" selection-start-column="83" selection-end-line="13" selection-end-column="83" />
+          <folding>
+            <element signature="e#36#100#0" expanded="true" />
           </folding>
         </state>
       </provider>

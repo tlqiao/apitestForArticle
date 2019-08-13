@@ -1,6 +1,5 @@
 package com.github.crown.testdata
 
-
 import org.junit.Test
 
 class InitTestData {
