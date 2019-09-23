@@ -57,9 +57,4 @@ class GroovyBasicStudy {
             println "a is c"
         }
     }
-
-    @Test
-    void testAssert() {
-
-    }
 }

@@ -23,9 +23,9 @@ class Case extends Specification {
                 .extract().response().getBody().asString()
         then: "book's price is correct"
         def bookPrice = jsonSlurper.parseText(response).books.find{ it -> it.name == bookName }.price
-        Assert.assertEquals(bookPrice, price)
+        Assert.assertEquals("bookPrice: ${bookPrice} is not correct",bookPrice, price)
         where:
         bookName | price
-        "三国演绎"| 20
+        "三国演绎"| 19
     }
 }

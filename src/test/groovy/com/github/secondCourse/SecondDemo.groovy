@@ -6,20 +6,18 @@ import static io.restassured.RestAssured.given
 
 class SecondDemo extends Specification {
 
-    def "should get user details by user name successfully"() {
+    def "should get book  by book name successfully"() {
         given: "no given"
         when: "call get user by name api"
-        given().log().all()
-                .baseUri("http://localhost:9090/")
+        given().baseUri("http://localhost:9090/").log().all()
                 .when()
-                .pathParam("userName",userName)
-                .get("api/getUserByName/{userName}")
-                .then()
-                .log().all()
+                .pathParam("bookName",bookName)
+                .get("api/getBook/{bookName}")
+                .then().log().all()
                 .assertThat().statusCode(200)
         then: "no then"
         where:
-        userName|placeHolder
+        bookName|placeHolder
         "tom"|""
         "dave"|""
     }

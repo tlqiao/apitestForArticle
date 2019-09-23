@@ -28,8 +28,8 @@ class SearchUserTest extends Specification {
         "systemManager"    | "name"    | ""       | ""
         "systemManager"    | ""        | "abc"    | ""
         "systemManager"    | ""        | ""       | 0
-        "systemManager"    | ""        | ""       | 1
-        "systemManager"    | "crown"   | "crown"  | 0
+        "roleManager"    | ""        | ""       | 1
+        "userManager"    | "crown"   | "crown"  | 0
         "systemManager"    | ""        | ""       | ""
     }
 

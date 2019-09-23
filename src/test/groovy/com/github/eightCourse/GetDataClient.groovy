@@ -27,9 +27,19 @@ class GetDataClient {
         println res
     }
 
-    void getData2() {
+    void getDataWithCsvUser() {
         def res = given().baseUri((String) configs.mockServerUrl)
-                .auth().preemptive().basic(users.username, userTestData.getPasswordByUserName(users.username))
+                .auth().preemptive().basic(users.username, users.password)
+                .when()
+                .get("/api/getData")
+                .then().assertThat().statusCode(200)
+                .extract().response().getBody().asString()
+        println res
+    }
+
+    void getDataWithEncryptPassword() {
+        def res = given().baseUri((String) configs.mockServerUrl)
+                .auth().preemptive().basic(users.username, testDataService.getPasswordByUserName(users.username))
                 .when()
                 .get("/api/getData")
                 .then().assertThat().statusCode(200)
@@ -43,7 +53,12 @@ class GetDataClient {
     }
 
     @Test()
-    void callGetData2() {
-        getData2()
+    void callGetDataWithCsvUser() {
+        getDataWithCsvUser()
+    }
+
+    @Test()
+    void callGetDataWithEncryptPassword() {
+        getDataWithEncryptPassword()
     }
 }

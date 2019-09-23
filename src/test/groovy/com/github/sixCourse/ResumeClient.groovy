@@ -52,7 +52,7 @@ class ResumeClient {
        def payLoad=  given().baseUri("http://localhost:9090")
                 .when()
                 .get("/api/getResume2")
-                .then().assertThat().statusCode(200)
+                .then().log().all().assertThat().statusCode(200)
                 .extract()
                 .response()
                 .path("payLoad")

@@ -1,14 +1,14 @@
 active: dev
 dev:
   db:
-    url: jdbc:mysql://127.0.0.1:3306/springbootdb
+    url: jdbc:mysql://127.0.0.1:3306/apitestdb
     user: root
-    password: root
+    password: root12345
   mockServerUrl: http://localhost:9090/
 stable:
   db:
-    url: jdbc:mysql://127.0.0.1:3306/springbootdb
+    url: jdbc:mysql://127.0.0.1:3306/apitestdb
     user: root
-    passowrd: root
+    passowrd: root12345
   mockServerUrl: http://localhost:9099/
 

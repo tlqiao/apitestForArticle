@@ -1,28 +1,19 @@
 package com.github.fourCourse.db
 
 import groovy.sql.Sql
-import com.github.fourCourse.file.FileService
 
 class DataSource {
-    Sql springBootDB
-    FileService fileService
-    def configs
-
-    DataSource() {
-        fileService = new FileService()
-        configs = fileService.getConfigs('./src/test/resources/com/github/config/config.yml')
-    }
-
-    Sql getSpringBootDB() {
-        if (!springBootDB) {
+    Sql sql
+    Sql getSql() {
+        if (!sql) {
             def mysqlDB = [
                     driver  : 'com.mysql.jdbc.Driver',
-                    url     : configs.dev.db.url,
-                    user    : configs.dev.db.user,
-                    password: configs.dev.db.password
+                    url     : 'jdbc:mysql://127.0.0.1:3306/apitestdb',
+                    user    : 'root',
+                    password: 'root12345'
             ]
-            springBootDB = Sql.newInstance(mysqlDB.url, mysqlDB.user, mysqlDB.password, mysqlDB.driver)
+            sql = Sql.newInstance(mysqlDB.url, mysqlDB.user, mysqlDB.password, mysqlDB.driver)
         }
-        springBootDB
+        sql
     }
 }

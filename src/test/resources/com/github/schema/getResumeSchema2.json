@@ -61,7 +61,7 @@
     }
   },
   "required": [
-    "name",
+    "names",
     "age",
     "birthPlace",
     "contacts"

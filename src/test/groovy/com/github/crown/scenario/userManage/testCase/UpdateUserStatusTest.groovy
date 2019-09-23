@@ -36,5 +36,7 @@ class UpdateUserStatusTest extends Specification {
         where:
         updateStatusUserRoleName | placeHolder
         "systemManager"          | ""
+        "roleManager"            | ""
+        "userManager"            | ""
     }
 }

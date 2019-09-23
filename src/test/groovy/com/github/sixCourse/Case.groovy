@@ -37,7 +37,7 @@ class Case extends Specification {
         when: "call the get resume api"
         def res = resumeClient.getResumeDetails()
         then: "println out contacts info"
-        println resumeService.printWorkingDetails(res)
+         resumeService.printWorkingDetails(res)
     }
 
     def "println language skill if person with it"() {
@@ -45,13 +45,23 @@ class Case extends Specification {
         when: "call the get resume api"
         def res = resumeClient.getResumeDetails()
         then: "println out contacts info"
-        println resumeService.printIfPersonWithSpecialSkill(res, language)
+         resumeService.printIfPersonWithSpecialSkill(res, language)
         where:
         language | placeHolder
         "Java"   | ""
     }
 
-    def "call the api"() {
+    def "call the api to validate schema with first schema file"() {
+        given: "no given"
+        when: "call the get resume api"
+        println resumeClient.getResumeSchemaValidate(filePath)
+        then: "no then"
+        where:
+        filePath|placeHolder
+        "com/github/schema/getResumeSchema.json"|""
+    }
+
+    def "call the api to validate schema with second schema file"() {
         given: "no given"
         when: "call the get resume api"
         println resumeClient.getResumeSchemaValidate(filePath)

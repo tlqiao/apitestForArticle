@@ -1,25 +1,25 @@
 package com.github.fourCourse.db
 
-class DataRepository extends DataSource{
+class DataRepository extends DataSourceNew{
     def getUserInfo() {
-        def userInfo = springBootDB.rows(ConstantSql.getUserInfo)
+        def userInfo = sql.rows(ConstantSql.getUserInfo)
         userInfo ? userInfo : ''
     }
 
     def getAddressByUserName(userName) {
-        def address = springBootDB.firstRow(ConstantSql.getAddressInfoByUserName, [userName])
+        def address = sql.firstRow(ConstantSql.getAddressInfoByUserName, [userName])
         address ? address : ''
     }
 
     def addUser(userName,age) {
-        springBootDB.execute(ConstantSql.addUser,[userName,age])
+        sql.execute(ConstantSql.addUser,[userName,age])
     }
 
     def getUser(userName) {
-        springBootDB.firstRow(ConstantSql.getUser,[userName])
+        sql.firstRow(ConstantSql.getUser,[userName])
     }
 
     def updateAddress(userName,age) {
-        springBootDB.execute(ConstantSql.updateAge,[age,userName])
+        sql.execute(ConstantSql.updateAge,[age,userName])
     }
 }

@@ -36,7 +36,7 @@ class Secret {
 
     static void main(String[] args) throws Exception
     {   String key = "apiTestStudy"
-        String plain = "root"
+        String plain = "root12345"
         String enc = encrypt(key, plain)
         println("Original text: " + plain)
         println("Encrypted text: " + enc)

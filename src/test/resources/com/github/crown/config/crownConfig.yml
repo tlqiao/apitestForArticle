@@ -4,5 +4,5 @@ local:
   db:
     url: jdbc:mysql://127.0.0.1:3306/crown1
     user: root
-    password: "[ENC]v/ugbsRD1jM="
+    password: "[ENC]qBzjPzcsixXFCAizS2Qv3Q=="
   baseUrl: http://127.0.0.1:8088

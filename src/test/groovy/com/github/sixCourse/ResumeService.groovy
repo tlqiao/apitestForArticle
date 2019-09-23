@@ -22,7 +22,8 @@ class ResumeService {
     void printWorkingDetails(String res) {
         def resumeDetails = jsonSlurper.parseText(res)
         if (resumeDetails.working.workingProject.size() > 0) {
-            resumeDetails.working.workingProject.each { it -> println it.projectName + it.jobTitle + it.responsibility }
+            resumeDetails.working.workingProject.each { it ->
+                    println "--projectName:${it.projectName}--jobTitle:${it.jobTitle}--responseibility:${it.responsibility}" }
         }
     }
 
@@ -30,7 +31,7 @@ class ResumeService {
         def resumeDetails = jsonSlurper.parseText(res)
         if (resumeDetails.skills.tech.size() > 0) {
             def programmingSkill = resumeDetails.skills.tech.find { it -> it.language == language }
-            println programmingSkill.language + programmingSkill.level
+            println "--programmingSkill:${programmingSkill.language}--level:${programmingSkill.level}"
         }
     }
 }
