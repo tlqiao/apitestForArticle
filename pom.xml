@@ -15,7 +15,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-    <mysql.version>5.1.44</mysql.version>
+    <mysql.version>8.0.28</mysql.version>
     <rest-assured.version>3.0.5</rest-assured.version>
     <groovy.version>2.4.12</groovy.version>
     <velocity.version>1.7</velocity.version>
